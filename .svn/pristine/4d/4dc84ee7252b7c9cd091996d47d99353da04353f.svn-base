@@ -1,0 +1,18 @@
+
+.clearUp{
+	height: 43px;
+	width:50px;
+	position: absolute;
+	right:-50px;
+	background:#303b48 url(../img/20171221152219.png) no-repeat 15px 12px;
+}
+/*清除按钮点击后切换背景*/
+
+.barter_bg{
+	background-image: url(../img/20171221152202.png) !important;
+}
+
+/*点击后展示*/
+.b_sh{
+	display: block !important;
+}

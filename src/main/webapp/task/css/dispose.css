@@ -1,0 +1,306 @@
+.s-box{
+	width:1870px;
+	height:785px;
+}
+.s-boxLeft{
+	float: left;
+	width: 1361px;
+	height: 785px;
+	/*background-color: #060d18;*/
+	border-radius: 5px;
+	border: solid 1px #166b6b;
+}
+.s-boxLeftTitle{
+	width:1361px;
+	height:61px;
+	background: rgba(21,90,191,0.25);
+	border-radius:5px 5px 0 0;
+}
+.tab{
+	width:1361px;
+	height:61px;
+}
+.tab>a{
+	font-size: 27px;
+	color:#fff;
+	display:block;
+	width:142px;
+	height:56px;
+	float: left;
+	line-height: 56px;
+	text-align: center;
+	margin-left:8px;
+}
+.tab a.on{border-bottom:5px solid #92bdff;}
+.content{overflow:hidden;}
+.contentBox{
+	padding:38px 47px 0px 26px;
+	height:685px;
+}
+.d-contentBox{
+	padding-left:17px;
+	padding-top:36px;
+}
+.contentBox>li{
+	display: none;
+}
+.contentBox>li.on{
+	display: block;
+}
+.s-info{
+	position:fixed;
+	width:780px;
+	height:50px;
+	background: #f00;
+	font-size: 16px;
+	color:#ccc;
+	margin-left:290px;
+	bottom:200px;
+	line-height:24px;
+}
+.s-tabInfo{
+	position: relative;
+	width:960px;
+	height:539px;
+	margin:auto;
+} 
+.s-slideShowTell{
+	padding-top:22px;
+	padding-right: 29px;
+	padding-left:29px;
+	width: 1306px;
+	height: 112px;
+	position: fixed;
+	bottom:30px;
+	left:0;
+	font-size: 22px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height:30px;
+	letter-spacing: 1px;
+	color: #ffffff;
+	background: rgba(21,90,191,0.25);
+	border-top:1px solid #154285;
+}
+.d-content{
+	position: relative;
+	width: 1336px;
+	height: 142px;
+	background: rgba(21,90,191,0.25);
+	background-blend-mode: normal, 
+		normal;
+	border-radius: 3px;
+	margin-bottom:15px;
+}
+.d-headImg{
+	float:left;
+	width:160px;
+	height:142px;
+	border-right:1px solid #154285;
+	text-align: center;
+}
+.d-headText{
+	float: left;
+	width:1030px;
+	height:94px;
+}
+.d-headTextInfo{
+	padding:16px 18px 30px 24px;
+}
+.d-name{
+	display: inline-block;
+	width:105px;
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 48px;
+	letter-spacing: -1px;
+	color: #e7e7e7;
+}
+.d-position{
+	font-size: 28px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 48px;
+	letter-spacing: -1px;
+	color: #299ef6;
+}
+.d-time{
+	float: right;
+	font-size: 20px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 48px;
+	letter-spacing: -1px;
+	color: #e7e7e7;
+}
+.d-headTextDetail{
+	margin-top:12px;
+	font-size: 23px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 36px;
+	letter-spacing: -1px;
+	color: #ffffff;
+}
+.d-headWatch{
+	border-left:1px solid #154285;
+	float: left;
+	width:144px;
+	height:142px;
+	font-size: 30px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height: 48px;
+	letter-spacing: -1px;
+	color: #1770b4;
+	text-align: center;
+	line-height: 142px;
+}
+.d-headImgbox{
+	display: inline-block;
+	width:96px;
+	height:96px;
+	margin-top:23px;
+}
+.d-headImgbox>img{
+	width:100%;
+}
+.d-boxRight{
+	float: right;
+	width: 498px;
+	height: 785px;
+	border-radius: 5px;
+	border: solid 1px #146062;
+}
+.s-boxTopTitle{
+	width:479px;
+	height:61px;
+	line-height: 61px;
+	font-size: 27px;
+	color:#fff;
+    padding-left:19px;
+	background: rgba(21,90,191,0.25);
+}
+.s-sboxLine{
+	width:498px;
+	height:724px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+.s-boxLine{
+	position: relative;
+	padding:14px 19px 14px 24px;
+	width:455px;
+	height:auto;
+	min-height: 122px;
+	border-bottom:1px solid #154285;
+}
+.s-Linetitle{
+	font-size: 22px;
+	color:#fff;
+}
+.s-LineNum{
+	font-size: 17px;
+	color:#fff;
+	float: right;
+	margin-top:5px;
+	margin-right:38px;
+}
+.s-progress{
+	position: relative;
+    margin-top:20px;
+}
+.ss-progressbar{
+	display: inline-block;
+	width: 380px;
+	height:9px;
+	margin-top:16px;
+	background: #fff;
+	border-radius:20px;
+}
+.ss-schedule{
+	display: inline-block;
+	height:9px;
+	background:#1f90e6;
+	border-radius:20px;
+	position: absolute;
+	margin-top:16px;
+	margin-left:-385px;
+}
+.s-progressNum{
+	font-size: 12px;
+	color:#fff;
+	margin-right:-38px;
+	margin-top: 3px;
+}
+.s-Linetitle1{
+	font-size: 26px;
+	color:#fff;
+}
+.s-LineImg{
+	display: inline-block;
+	width:27px;
+	height:27px;
+	float: right;
+	background:url("../img/等待(1).png") no-repeat;
+}
+.s-LineImg>img{
+	width:100%;
+	height:100%;
+}
+.s-LineImg-success{
+	display: inline-block;
+	width:27px;
+	height:27px;
+	float: right;
+	background:url("../img/对勾.png") no-repeat;
+}
+.s-LineText{
+	color:#fff;
+	font-size: 20px;
+	margin-top: 20px;
+	line-height:24px;
+	letter-spacing:1.5px;
+}
+.s-LineTextBto{
+	color:#fff;
+	font-size: 18px;
+	text-align: right;
+	margin-top:32px;;
+}
+/*滚动条*/
+.s-sboxLine::-webkit-scrollbar {
+	width: 10px;  
+	height: 0px;  
+	background-color: #F5F5F5;  
+	}  
+/*定义滚动条轨道 内阴影+圆角*/  
+.s-sboxLine::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.28);  
+	background: #6f747c ;  
+}  
+/*定义滑块 内阴影+圆角*/  
+.s-sboxLine::-webkit-scrollbar-thumb {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	background-color:rgba(53, 58, 60, 1);  
+	}  
+.s-sboxLine::-webkit-scrollbar-thumb:hover {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	background-color:rgba(53, 58, 60, 1);  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

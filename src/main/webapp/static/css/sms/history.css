@@ -1,0 +1,442 @@
+.wrapper {
+	width: 1920px;
+	height: 1078px;
+	box-sizing:border-box;
+	background: url(../../img/sms/bgcImage.jpg) no-repeat;
+	overflow: hidden;
+}
+
+/* 椤堕儴鍏叡鍖哄煙 */
+.header {
+	width: 100%;
+	height: 79px;
+	background-color: #0d192d;
+}
+
+/* 鍐呭閮ㄥ垎 */
+.page {
+	width: 100%;
+	height: 1000px;
+	box-sizing:border-box;
+	position: relative;
+}
+
+/* 鎼滅储鍥炬爣 */
+.history i.search {
+	width: 30px;
+	height: 30px;
+	background: url(../../img/sms/icon_search.png) no-repeat;
+	display: block;
+	float: left;
+	margin-top: 6px;
+}
+
+/* 涓嬫媺鎸夐挳鍥炬爣 */
+.history i.pulldown {
+	float:right;
+	width: 22px;
+	height: 22px;
+	margin-top: 19px;
+	margin-right: 24px;
+	display: block;
+	background: url(../../img/sms/icon_pulldown.png) no-repeat;
+}
+
+/* 鍙虫媺鎸夐挳鍥炬爣 */
+.history i.pullright {
+	float:right;
+	width: 22px;
+	height: 22px;
+	margin-top: 19px;
+	margin-right: 24px;
+	display: block;
+	background: url(../../img/sms/icon_pullright.png) no-repeat;
+}
+
+	/* 棣栭〉鍙備笌鎴愬憳 */
+	.history .member-show::-webkit-scrollbar {
+		width: 10px;  
+		height: 4px;  
+		background-color: #F5F5F5;  
+	}  
+	/*瀹氫箟婊氬姩鏉¤建閬� 鍐呴槾褰�+鍦嗚*/  
+	.history .member-show::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.28);  
+		background: #fff ;  
+	}  
+	/*瀹氫箟婊戝潡 鍐呴槾褰�+鍦嗚*/  
+	.history .member-show::-webkit-scrollbar-thumb {
+		border-radius: 3px;  
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+		background-color:rgba(53, 58, 60, 1);  
+	}  
+	.history .member-show::-webkit-scrollbar-thumb:hover {
+		border-radius: 3px;  
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+		background-color:rgba(53, 58, 60, 1);  
+}  
+
+
+/* 鍙備笌鎴愬憳 */
+
+.history .member {
+	position: absolute;
+	top: 12px;
+	left: -460px;
+}
+
+/* 瑙ｅ喅婊戝嚭鎶栧姩bug */
+.history .member-bug {
+	width: 100px;
+	height: 1000px;
+	position: absolute;
+	top: 12px;
+	left: -100px;
+}
+
+.history .member-show {
+	width: 460px;
+	height: 1000px;
+	border: 1px solid #126062;
+	border-radius: 4px;
+	box-sizing:border-box;
+	background-color: #050d19;
+	/* margin-left: 16px;
+	margin-top: 12px; */
+/* 	position: absolute;
+	top: 12px;
+	left: 16px; */
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.history .member-hidden {
+	width: 16px;
+	height: 1000px;
+	background-color: #145d99;
+/* 	position: absolute;
+	top: 12px;
+	left: 0; */
+}
+
+/* 鍙堟媺鍙岀澶村浘鏍� */
+.history i.rightArrow {
+	width: 12px;
+	height: 12px;
+	display: block;
+	margin-top: 450px;
+	background: url(../../img/sms/icon_rightArrow.png) no-repeat;
+}
+
+/* 鏍囬 */
+.history .member-title {
+	width: 460px;
+	height: 60px;
+	background-color: #0b2344;
+	color: #fff;
+	font-size: 24px;
+	line-height: 60px;
+	padding-left: 26px;
+}
+/* 鎼滅储妗� */
+.history .member-search {
+	width: 460px;
+	height: 60px;
+	background-color: #050e1c;
+	padding:9px 14px 0 26px;
+	box-sizing:border-box;
+}
+
+.history .member-search input {
+	width: 280px;
+	height: 42px;
+	color: #929498;
+	font-size: 20px;
+	float: left;
+	margin-left: 20px;
+}
+
+.history .member-search span {
+	width: 88px;
+	height: 42px;
+	line-height: 42px;
+	background-color: #1a4c95;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	float: right;
+	border-radius: 4px;
+}
+
+/* 瀵艰埅鏉￠儴鍒� */
+
+.history .member-nav {
+	width: 460px;
+	background-color: #050d19;
+}
+
+.history .member-nav .navTitle {
+	width: 460px;
+}
+
+.history .member-nav .nav:hover .navTitle {
+	background-color: #114591;
+}
+
+.history .member-nav .navTitle span {
+	float: left;
+	width: 300px;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 26px;
+	font-size: 20px;
+	color: #fff;
+
+}
+
+/* 瀛愬鑸潯 */
+.history .member-nav .subnav li {
+	width: 398px;
+	/* height: 60px; */
+	line-height: 60px;
+	color: #fff;
+	font-size: 20px;
+	padding-left: 62px;
+	overflow: hidden; /*鑷姩闅愯棌鏂囧瓧*/
+	text-overflow: ellipsis;/*鏂囧瓧闅愯棌鍚庢坊鍔犵渷鐣ュ彿*/
+	white-space: nowrap;/*寮哄埗涓嶆崲琛�*/
+	width: 20em;/*涓嶅厑璁稿嚭鐜板崐姹夊瓧鎴柇*/
+}
+
+.history .member-nav .subnav li:hover {
+	background-color: #0a254e;
+	white-space:normal;
+	overflow:visible;
+}
+
+/* 鍙備笌鎴愬憳缁撴潫 */
+
+/* 褰撳墠浣嶇疆 */
+.history .content {
+	width: 1878px;
+	height: 988px;
+	margin-left: 30px;
+	margin-top: 12px;
+}
+
+.history .content .navBar {
+	width: 1878px;
+	height: 50px;
+	padding-left: 22px;
+	clear: both;
+}
+
+.history .content .navBar span {
+	width: 106px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 24px;
+}
+
+.history .content .navBar span:last-child {
+	text-decoration:underline;
+}
+
+.history .content .navBar a {
+	width: 106px;
+	height: 50px;
+	color: #7fa6e1;
+	font-size: 24px;
+	text-decoration:underline;
+}
+
+.history .content .navBar i {
+	font-size: 24px;
+	color: #fff;
+}
+
+.history .content .conTxt {
+	width: 1878px;
+	height: 840px;
+}
+
+.history .content .conTxt div:first-child {
+	width: 1878px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 24px;
+	color: #fff;
+	padding-left: 22px;
+}
+
+.history .content .table-list {
+	width: 1878px;
+	height: 660px;
+}
+
+.history .content .table-list .title {
+	width: 1878px;
+	height: 64px;
+	padding-left: 20px;
+	background-color: #050e1c;
+	box-sizing:border-box;
+}
+
+.history .content .title li {
+	float: left;
+	height: 64px;
+	line-height: 64px;
+	font-size: 24px;
+	color: #fff;
+	text-align: left;
+	/* background-color: #050d1a; */
+}
+
+.history .content .title li:first-child {
+	width: 278px;
+}
+
+.history .content .title li:nth-child(2) {
+	/* width: 368px; */
+	width: 553px;
+	
+}
+
+.history .content .title li:nth-child(3) {
+	width: 343px;
+}
+
+.history .content .title li:nth-child(4) {
+	width: 568px;
+}
+
+.history .content .title li:nth-child(5) {
+	width: 436px;
+}
+
+.history .content .conter {
+	width: 1878px;
+	height: 700px;
+	box-sizing:border-box;
+}
+
+.history .content .conter .conter-scroll {
+	width: 1878px;
+	height: 700px;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+/*婊氬姩鏉� start*/
+	/* 鍘嗗彶鍒楄〃 */
+	.history .content .conter .conter-scroll::-webkit-scrollbar {
+		width: 10px;  
+		height: 4px;  
+		background-color: #F5F5F5;  
+	}  
+	/*瀹氫箟婊氬姩鏉¤建閬� 鍐呴槾褰�+鍦嗚*/  
+	.history .content .conter .conter-scroll::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.28);  
+		background: #fff ;  
+	}  
+	/*瀹氫箟婊戝潡 鍐呴槾褰�+鍦嗚*/  
+	.history .content .conter .conter-scroll::-webkit-scrollbar-thumb {
+		border-radius: 3px;  
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+		background-color:rgba(53, 58, 60, 1);  
+	}  
+	.history .content .conter .conter-scroll::-webkit-scrollbar-thumb:hover {
+		border-radius: 3px;  
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+		background-color:rgba(53, 58, 60, 1);  
+} 
+
+/* 闅旇鍙樿壊 */
+.history .content .conter .conter-list:nth-child(odd) {
+	background-color: #0b1e3a;
+}
+
+.history .content .conter .conter-list:nth-child(even) {
+	background-color: #050e1b;
+}
+
+
+.history .content .conter .conter-list {
+	width: 1878px;
+
+}
+
+.history .content .conter .conter-list span {
+	display: inline-block;
+	font-size: 24px;
+	color: #fff;
+	line-height: 70px;
+	vertical-align:top;/*鍏冪礌灞呯埗鐩掑瓙椤堕儴瀵归綈*/
+	/* 瓒呭嚭閮ㄥ垎闅愯棌涓斿嚭鐜扮渷鐣ュ彿 */
+	overflow: hidden; /*鑷姩闅愯棌鏂囧瓧*/
+	text-overflow: ellipsis;/*鏂囧瓧闅愯棌鍚庢坊鍔犵渷鐣ュ彿*/
+	white-space: nowrap;/*寮哄埗涓嶆崲琛�*/
+	width: 20em;/* 涓嶅厑璁稿嚭鐜板崐姹夊瓧鎴柇 */
+}
+
+/* 榧犳爣绉诲叆鏄剧ず闅愯棌鏂囨湰 */
+.history .content .conter .conter-list span.on {
+	white-space:normal;
+}
+
+.history .content .conter .conter-list span:first-child {
+	width: 278px;
+}
+
+.history .content .conter .conter-list span:nth-child(2) {
+	width: 368px;
+}
+
+.history .content .conter .conter-list span:nth-child(3) {
+	width: 555px;
+}
+
+.history .content .conter .conter-list span:nth-child(4) {
+	width: 444px;
+	box-sizing: border-box;
+	padding-right: 20px;
+}
+
+.history .content .conter .conter-list span:nth-child(5) {
+	width: 218px;
+	box-sizing: border-box;
+	padding-left: 15px;
+}
+
+.history .content .conter .conter-list span:nth-child(6) {
+	width: 184px;
+}
+
+
+
+
+
+
+.history .content .visible {
+	width: 1878px;
+	height: 192px;
+}
+
+/* 鍒嗛〉鎸夐挳 */
+.history .content .pageToolbar {
+	width: 1878px;
+	height: 108px;
+}
+
+/* .history .content .pageToolbar ul {
+	 zoom:1;
+}
+
+.history .content .pageToolbar ul:after {
+	display:block;content:'';height:0; clear:both; visibility:hidden;
+}
+
+.history .content .pageToolbar li {
+	float: left;
+} */

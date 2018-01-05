@@ -1,0 +1,14 @@
+$(function(){
+  $(".navigation").hover(function(){
+		$(this).stop(true,false).animate({"margin-left":"0px"},1000)
+	    $(this).children(".navigation-btn").hide();
+	    $(this).children(".nn").css("width","497px");
+	    },function(){
+		$(this).stop(true,false).animate({"margin-left":"-477px"},1000);
+		$(this).children(".navigation-btn").show();
+		$(this).children(".nn").css("width","477px");
+		})
+		$(".nn").children("h1").click(function(){
+			$(this).next().slideDown().parent().siblings().children("ul").slideUp();
+		})
+})

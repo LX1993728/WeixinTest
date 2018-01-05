@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>深圳市应急指挥平台</title>
+
+	<link rel="stylesheet" href="../css/sms/bootstrap.min14ed.css">
+	<link rel="stylesheet" href="../css/sms/css_reset.css">
+	<link rel="stylesheet" href="../css/sms/sendPlan.css">
+	<link rel="stylesheet" href="../css/sms/header.css">
+
+</head>
+<body>
+	<div class="wrapper">
+		<!-- 头部 -->
+		<div class="header">
+			<nav>
+			<div class="messageLog">
+				<img src="../../img/u852.png"/><span>深圳应急指挥平台</span>
+			</div>
+			<ul class="navigation">
+				<li><p><a  href="../../static/index.html" style="font-size:26px; color:#FFFFFF">事件态势</a></p></li>
+				<li>
+					<p class="aptitude">智能场景</p>
+					<ul class="SmartPlan">
+						<li><a href="../空楼行动/空楼行动.html">空楼行动</a></li>
+						<li><a href="../疏散计划/疏散计划.html">疏散规划</a></li>
+						<li><a href="../人员救治/人员救治.html">人员救治</a></li>
+						<li><a href="../衍生灾难推演/衍生灾难推演.html">衍生灾害推演</a></li>
+					</ul>
+					
+				</li>
+				<li><p class="send_message">智能预案</p></li>
+			</ul>
+			<div class="userLogin">
+				<div class="question" style="background-image:url(../img/帮助.png);"></div>
+				<div class="userJpg" style="background-image: url(../img/用户拷贝.png);">
+				</div>
+				<div class="userName">Jay.Liu
+				</div>
+				<div class="onOff">
+				</div>
+			</div>
+		</div>
+		<!-- 内容区域 -->
+		<div class="sendPlan page clearfix">
+			<!-- 当前预案 -->
+			<div class="content">
+				<!-- 标题 -->
+				<div class="titleOf">
+					<div class="title">
+						<span>当前位置：</span>
+						<a target="_self" href="./index.html" class="look">预案查看</a>
+						<span>-</span>
+						<span class="distribute">预案分发</span>
+					</div>
+				</div>
+				<!-- 主页 -->
+				<div class="conter clearfix">
+					<div class="nav fl">
+						<!-- 导航区 -->
+						<div class="navBar">
+							<div class="title">
+								<span class="sendContentTitle">深圳防台风预案</span>
+							</div>
+							<div class="navBar-box">
+								<span>预置内容</span>
+								<div class="navBar-list" id="navBar-list">
+									<ul>
+										<li>
+											<a href="javascript:;" id="censure">各成员单位职责</a>
+										</li>
+										<li>
+											<a href="javascript:;" id="attention">关注级应急响应</a>
+										</li>
+										<li>
+											<a href="javascript:;" id="four">Ⅳ级应急响应</a>
+										</li>
+										<li>
+											<a href="javascript:;" id="three">Ⅲ级应急响应</a>
+										</li>
+										<li>
+											<a href="javascript:;" id="two">Ⅱ级应急响应</a>
+										</li>
+										<li>
+											<a href="javascript:;" id="one">Ⅰ级应急响应</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+						<!-- 自定义部分 -->
+						<div class="navFoot">
+							<div class="navFoot-con">
+								<span>自定义内容响应</span>
+								<div>
+									<ul>
+										<li>
+											<a href="javascript:;">自定义内容发送</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+							<div class="navFoot-history">
+								<span>发送历史查看</span>
+								<div>
+									<ul>
+										<li>
+											<a target="_self" href="./history.html">历史记录</a>
+										</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+					</div>
+					<!-- 内容详情 -->
+					<div class="list fl">
+						<div class="table">
+							<div class="tab-title">
+								<span>发送内容详情</span>
+							</div>
+							<div class="tab-cont">
+								<table class="table">
+									<thead>
+										<tr>
+											<th class="col-md-3">
+												<div class='checkbox'>
+													<input type='checkbox' id='checkbox'>
+													<label for='checkbox'>
+														接收单位
+													</label>
+												</div>
+											</th>
+											<th class="col-md-2">接收人员</th>
+											<th class="col-md-8">接收内容</th>
+										</tr>
+									</thead>
+									<tbody id="sendTableList">
+										
+									</tbody>
+								</table>
+							</div>
+						</div>
+						<div class="list-send">
+							<a href="javascript:;" id="list-send">
+								<span>发送</span>
+							</a> 
+							<!-- <a target="_self" href="./sendList.html" id="list-send">
+								<span>发送</span>
+							</a>  -->
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- 预案列表 -->
+			<div class="member clearfix">
+				<!-- 解决滑出抖动bug -->
+				<div class="member-bug fl"></div>
+				<div class="member-show fl">
+					<div class="member-flag">
+						<div class="member-title">
+						预案列表
+						</div>
+						<div class="member-search">
+							<i class="search"></i>
+							<input type="text" placeholder="请输入关键字搜索">
+							<span>搜索</span>
+						</div>
+						<div class="member-nav">
+							<ul class="member-nav-Box">
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>自然灾害类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市自然灾害救助应急预案》</li>
+											<li>《深圳市防汛应急预案》</li>
+											<li class="shenzhentaifengyuan">《深圳市防台风应急预案》</li>
+											<li>《深圳市气象灾害应急预案》</li>
+											<li>《深圳市地震应急预案》</li>
+											<li>《深圳市突发地质灾害应急预案》</li>
+											<li>《深圳市海洋灾害应急预案》</li>
+											<li>《深圳市处置森林火灾应急预案》</li>
+											<li>《深圳市台风暴雨等恶劣天气交通保障应急预案》</li>
+											<li>《深圳市大气污染应急预案》</li>
+											<li>《深圳港防热带气旋应急预案》</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>事故灾难类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市处置铁路行车事故应急预案》</li>
+											<li>《深圳市处置民用航空器飞行事故应急预案》</li>
+											<li>《深圳市城市轨道交通突发事件应急预案》</li>
+											<li>《深圳市处置道路交通（含桥梁、隧道）突发事件应急预案》</li>
+											<li>《深圳市海上突发事件应急处置预案》</li>
+											<li>《深圳市海域污染应急预案》</li>
+											<li>《深圳市处置电网大面积停电事件应急预案》</li>
+											<li>《深圳市通信保障突发事件应急预案》</li>
+											<li>《深圳市危险化学品事故应急救援预案》</li>
+											<li>《深圳市工矿商贸企业生产安全事故应急预案》</li>
+											<li>《深圳市燃气突发事故应急预案》</li>
+											<li>《深圳市建筑工程抢险应急预案》</li>
+											<li>《深圳市突发环境事件应急预案》</li>
+											<li>《深圳市突发辐射事故应急预案》</li>
+											<li>《深圳市水源和供水突发事件应急预案》</li>
+											<li>《深圳市城市排水突发事件应急预案》</li>
+											<li>《深圳市火灾事故应急预案》</li>
+											<li>《深圳市特种设备事故应急预案》</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>突发公共卫生事件类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市突发公共卫生事件应急预案》</li>
+											<li>《深圳市食品安全事故应急预案》</li>
+											<li>《深圳市药品安全突发事件应急预案》</li>
+											<li>《深圳市突发重大动物疫情应急预案》</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>社会安全事件类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市生活必需品市场供应突发事件应急预案》</li>
+											<li>《深圳市成品燃油市场供应应急预案》</li>
+											<li>《深圳市网络与信息安全突发事件应急预案》</li>
+											<li>《深圳市燃气供应保障应急预案》</li>
+											<li>《深圳市金融突发事件应急预案》</li>
+											<li>《深圳市涉外（港澳）突发事件应急预案》</li>
+											<li>《深圳市涉台突发事件应急预案》</li>
+											<li>《深圳市处置群体性事件和大规模暴力犯罪事件应急预案》</li>
+											<li>《深圳市处置重大刑事案件应急预案》</li>
+											<li>《深圳市处置恐怖袭击事件应急预案》</li>
+											<li>《深圳市处置劫机事件应急预案》</li>
+											<li>《深圳市处置民族宗教事件应急预案》</li>
+											<li>《深圳市突发事件新闻发布应急预案》</li>
+											<li>《深圳市旅游突发事件应急预案》</li>
+											<li>《深圳市校园安全稳定突发事件应急预案》</li>
+											<li>《深圳市陆路口岸通关突发事件应急预案》</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>应急保障类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市突发事件医疗卫生救援应急预案》</li>
+											<li>《深圳市卫生应急物质保障预案》	</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>事故灾难类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳港口危险货物事故应急预案》</li>
+											<li>《深圳市核电站核事故场外应急预案》</li>
+											<li>《深圳市海上危险化学品事故应急预案》</li>
+											<li>《深圳市地面塌陷事故应急预案》</li>
+											<li>《深圳市建筑废弃物受纳场突发事故应急预案》</li>
+											<li>《深圳市生产安全事故应急预案》</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="member-hidden fl">
+					<i class="rightArrow"></i>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 引入bootstrap插件 -->
+	<script src="../js/sms/jquery.min.js"></script>
+
+	<!-- 引入假数据 -->
+	<script src="../js/sms/sendPlanData.js"></script>
+	
+	<!-- js功能区 -->
+	<script>
+		$(function(){
+            $("#checkbox").trigger('click')
+			$("#navBar-list ul li").click(function(){
+				$("#checkbox").attr("checked",false)
+				$("#checkbox").trigger('click')
+			});
+			// 当前位置的菜单之间相互切换
+			$(".navTitle").click(function(){
+				// 切换子菜单的显示隐藏
+				$(this).next().toggle("slow");
+				// 切换箭头图标
+				$(this).children('i').toggle();
+			})
+
+			$(".shenzhentaifengyuan").click(function(){
+				$(this).text("《深圳市防台风应急预案》  -->")
+				$(this).css("color","#92bdff")
+				$(".curPlace-news").hide(0,function() {
+					$(this).show("slow")
+				});
+			})
+			
+			// 参与成员的显示隐藏
+			$(".member").hover(function() {
+				$(".member").stop(true,false).animate({left: "16px"});
+				$(".member-hidden").stop(true,false).hide(600);
+			}, function() {
+				$(".member").stop(true,false).animate({left: "-460px"},500);
+				$(".member-hidden").stop(true,false).show(600);
+			});
+			//$("#sendTableList .checkbox input").each(function(i,val){
+			//	$(val).attr('checked',true);
+			//	console.log(val)
+			//})
+		    var leftContent = $(".sendContentTitle").html() +"-"+ $(".navBar-listActive").closest("div").prev().html() +"-"+ $(".navBar-listActive").html();
+			var tds =[];
+			var parmas =[];
+			$("#list-send").click(function(){
+			 	var $trs = $("#sendTableList .checkbox input:checkbox:checked").parent().parent().parent();
+			 	if($trs.length==0){
+			 		alert('请您至少选择一人')
+			 		return false;
+			 	}else{
+			 		for(var i=0;i<$trs.length;i++){
+			 			tds= $($trs[i].cells);
+			 			for(var j=0;j<tds.length;j++){
+			 				var toc = $.trim($(tds[0]).text())
+			 				var top = $.trim($(tds[1]).text())
+			 				var mob = $.trim($(tds[2]).text())
+			 				var con = $.trim($(tds[3]).text())
+			 					
+			 			}
+			 			parmas.push({toCompany:toc,toPerson:top,mobile:mob,content:con,leftContent:leftContent})
+			 		}
+			 	}
+		 		$.ajax({
+	 				url: '/sms/send',
+	 				type: "post",
+	 				dataType: 'JSON',
+	 			 	data:{
+	 			 		sendParams:JSON.stringify(parmas)
+	 			 	},success:function(data){
+	 			 		console.log(data)
+	 			 		if(data.msg == '发送成功'){
+	 			 		   window.sessionStorage["uid"] = null;
+					       window.sessionStorage["uid"] = data.uid;
+					       console.log(window.sessionStorage["uid"]);
+					       window.location="sendList.html";
+					       //setTimeout(function(){window.location="sendList.html";},1000);
+				        }
+	 				}
+		 	   })
+				
+			})
+		})
+	</script>
+	<script>
+		// 菜单栏同步显示发送列表
+		var $censure = $("#censure");
+		var $attention = $("#attention");
+		var $four = $("#four");
+		var $three = $("#three");
+		var $two = $("#two");
+		var $one = $("#one");
+		var $box = $("#sendTableList");
+		showSendList(sendPlanData.censure,$censure,$box,checkboxList);
+		showSendList(sendPlanData.attention,$attention,$box,checkboxList);
+		showSendList(sendPlanData.four,$four,$box,checkboxList);
+		showSendList(sendPlanData.three,$three,$box,checkboxList);
+		showSendList(sendPlanData.two,$two,$box,checkboxList);
+		showSendList(sendPlanData.one,$one,$box,checkboxList);
+		// 同步对应信息列表函数方法封装
+		function showSendList(data,obj,box,callback){
+			// data：需要展示的数据
+			// obj：点击的对象
+			// box：装数据的容器
+			// callback：回调函数
+			var str ="";
+			var censure = data;
+			for(var i=0;i<censure.length;i++){
+				str += '<tr>'+
+							'<td class="col-md-3">'+
+								'<div class="checkbox">'+
+									'<input type="checkbox" id="checkbox'+i+'">'+
+									'<label for="checkbox'+i+'">'+censure[i].unit+'</label>'+
+								'</div>'+
+							'</td>'+
+							'<td class="col-md-2">'+censure[i].name+'</td>'+
+							'<td class="col-md-2" style="display:none">'+censure[i].phone+'</td>'+
+							'<td class="col-md-8">'+censure[i].text+'</td>'+
+						'</tr>'
+			}
+			$(obj).click(function(){
+				// 判断页面是否有元素，如果有，清除掉
+				if($(box).children()){
+					$(box).children().remove();
+				}
+				$(this).parent("li").siblings().children('a').removeClass('navBar-listActive');
+				$(this).addClass('navBar-listActive')    
+				$(box).append(str);
+				
+				if(callback){
+					callback();
+				}
+			});
+
+
+		
+		}
+        $censure.trigger('click');
+		function checkboxList(){
+			// 总复选框状态同步到子复选框
+			var $all = $("#checkbox");
+			var $boxes = $("#sendTableList .checkbox").find(":checkbox");
+			$all.click(function(){
+				$boxes.prop("checked", $all.prop("checked"));
+			})
+			$boxes.click(function () {
+				$all.prop("checked", $boxes.length === $("#sendTableList .checkbox").find(":checkbox:checked").length);
+			});
+			
+		}
+
+			
+		
+		
+
+			
+	</script>
+	<script src="../js/sms/bootstrap.min.js"></script>
+</body>
+</html>
+
+<script src="../js/sms/header.js" type="text/javascript" charset="utf-8"></script>

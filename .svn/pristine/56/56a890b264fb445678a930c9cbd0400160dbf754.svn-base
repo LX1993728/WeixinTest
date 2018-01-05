@@ -1,0 +1,243 @@
+body{
+	width:1920px;
+	height:1080px;
+	background:url(../img/bg.png) no-repeat;
+	overflow:hidden;
+}
+.indexLogo{
+	position: relative;
+	width:1920px;
+	height:79px;
+	background:rgba(1,3,9,0.62);
+}
+.indexLogo-content{
+	padding:10px 28px 20px 28px;
+	height:49px;
+}
+.indexLogo-img{
+	width:135px;
+	height:49px;
+	float:left;
+}
+.indexLogo-img>img{
+	width:100%;
+	height:100%;
+}
+.sceneText{
+	float:left;
+	height:59px;
+	border-left:1px solid #9fa1a6;
+	margin-left:20px;
+	padding-left:20px;
+	line-height: 32px;
+}
+.sceneFirst{
+	font-size: 28px;
+	color:#fff;
+}
+
+.sceneSecond{
+	font-size: 20px;
+	color:#fff;
+}
+.sceneRight{
+    width:510px;
+    height:79px;
+    float: right;
+    margin-top:-10px;
+    margin-right: -28px;	
+}
+.sceneRight>span{
+	cursor:pointer;
+	float: left;
+}
+.sceneSecondText{
+	display: inline-block;
+	width:301px;
+	height:79px;
+	font-size:24px;
+    line-height:79px;
+    color:#fff;
+}
+.sceneSecondNext{
+	width:116px;
+	height:79px;
+	text-align: center;
+	padding-top:20px;
+	box-sizing:border-box;
+}
+.sceneSecondBnt{
+	text-align: center;
+    display: inline-block;
+    width:93px;
+    height:59px;
+	background-color: #155abf;
+	opacity: 0.48;
+	padding-top:20px;
+}
+.sceneSecondBnt>a{
+	display: inline-block;
+	width:93px;
+    height:59px;
+}
+.navBox {
+	margin:auto;
+	width: 1814px;
+	height: 185px;
+	overflow-y:hidden;
+	overflow-x:auto;
+	position: relative;
+	left:0;
+}
+
+/*滚动条 start*/
+	/* 首页预案 */
+	.navBox::-webkit-scrollbar {
+		width: 10px;  
+		height: 8px;  
+		background-color: #F5F5F5;  
+	}  
+	/*定义滚动条轨道 内阴影+圆角*/  
+	.navBox::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+		background-color:rgba(53, 58, 60, 1);   
+	}  
+	/*定义滑块 内阴影+圆角*/  
+	.navBox::-webkit-scrollbar-thumb {
+		border-radius: 3px;  
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.28);  
+		background: #fff ; 
+	}  
+.navBox #navBox-menu {
+	margin-top:20px;
+	position: relative;
+	white-space: nowrap;
+	height: 130px;
+	font-size: 0;
+	/* border: 1px solid #ccc; */
+	background: url(../img/icon_menuBgimg.png) repeat-x center 39px;
+}
+
+.navBox #navBox-menu li {
+	float: left;
+	display: inline;
+	height: 130px;
+	box-sizing:border-box;
+}
+
+.navBox #navBox-menu li a.active div:last-child {
+	color: #19bac2;
+}
+
+.navBox #navBox-menu li a.active span {
+	background-color: #f0f6fd;
+}
+
+
+.navBox #navBox-menu li:last-child {
+	width: 100px;
+	height: 80px;
+	box-sizing:border-box;
+}
+
+
+.navBox #navBox-menu .menu-one .menu-gbimg {
+	width: 80px;
+	height: 80px;
+	background: url(../img/icon_menuOne.png) no-repeat;
+	background-color: #092145;
+	border-radius: 50%;
+	margin: 0 auto;
+}
+
+.navBox #navBox-menu li:first-child .menu-gbimg {
+	margin-left: 0;
+}
+
+.navBox #navBox-menu li:last-child .menu-gbimg {
+	margin-right: 0;
+}
+
+.navBox #navBox-menu .menu-one div:last-child {
+	width: 100px;
+	height: 50px;
+	line-height: 50px;
+	text-align: center;
+}
+
+.navBox #navBox-menu .menu-one {
+	height: 130px;
+	font-size: 24px;
+	color: #ebf7ff;
+	box-sizing:border-box;
+
+}
+
+.navBox #navBox-menu .menu-one span {
+	height: 50px;
+	line-height: 50px;
+	display: inline-block;
+}
+
+.navBox #navBox-menu li .menu-one {
+	float: left;
+	width: 100px;
+	height: 130px;
+	display: block;
+}
+
+.navBox #navBox-menu li .menu-two {
+	float: left;
+	width: 50px;
+	height: 130px;
+	display: block;
+}
+
+.navBox #navBox-menu li .menu-three {
+	float: left;
+	width: 50px;
+	height: 130px;
+	display: block;
+	padding-top:30px;
+	box-sizing:border-box;
+}
+
+.navBox #navBox-menu .menu-two {
+	height: 130px;
+	text-align: center;
+	box-sizing:border-box;
+	padding-top:26px;
+}
+
+.navBox #navBox-menu .menu-two span {
+	width: 32px;
+	height: 32px;
+	background-color: #092144;
+	border-radius: 50%;
+	display: inline-block;
+}
+
+.navBox #navBox-menu .menu-three {
+	height: 130px;
+	line-height: 106px;
+	text-align: center;
+}
+
+.navBox #navBox-menu .menu-three span {
+	width: 22px;
+	height: 22px;
+	background-color: #124ea7;
+	border-radius: 50%;
+	display: inline-block;
+}
+.secneContent{
+	width:1920px;
+	height:816px;
+}
+.secneContentBox{
+	width:1870px;
+	height:100%;
+	min-height:788px;
+    background: rgba(6,13,24,0.7);
+	margin-left:32px;
+}

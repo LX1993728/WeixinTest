@@ -1,0 +1,428 @@
+.summary{
+	width:1868px;
+	height:810px; 
+	border:1px solid #146163;
+	border-radius: 5px;
+	overflow: hidden;
+}
+/* .summary-tab{
+	width:1868px;
+	height:700px;
+	height:814px;
+} */
+.tabbox{
+	width:1868px;
+}
+.tabbox .tab{
+	overflow:hidden;
+	height:61px;
+	width:1848px;
+	padding-left:20px;
+	background: rgba(21,90,191,0.25);
+}
+.tabcontent{
+	width:1868px;
+	height:670px;
+}
+.tabbox .tabcontent-first{
+	width:1868px;
+	height:753px;
+	overflow:auto;
+}
+
+.tabbox .tab a{
+	display:block;
+	float:left;
+	width:142px;
+	height:56px;
+	font-size: 27px;
+	line-height: 56px;
+	letter-spacing: 2px;
+	color: #ffffff;
+	text-align: center;
+}
+.tabbox .tab a.on{
+	color:#92bdff;
+	border-bottom:5px solid #92bdff;
+}
+.tabbox .tabcontent{overflow:hidden;height:auto;}
+.tabbox .tabcontent li{display:none;}
+.summary-report{
+	position:relative;
+	width:1868px;
+}
+.summary-list{
+	width:1828px;
+	padding:16px 20px 26px 20px;
+	height:40px;
+/*	background: #fff;*/
+	border-bottom:1px solid #154285;
+}
+.summary-listItem{
+	display: block;
+	float: left;
+	width:150px;
+	height:40px;
+	margin-right: 40px;
+	font-size: 24px;
+	line-height:40px;
+	letter-spacing: 1px;
+	color: #cacaca;
+	text-align: right;
+}
+.summary-img1{
+	background: url(../img1/原因1.png) no-repeat 10px 5px;
+}
+.summary-img2{
+	background: url(../img1/伤残1.png) no-repeat 10px 0px;
+}
+.summary-img3{
+	background: url(../img1/应急1.png) no-repeat 0px 0px;
+}
+.summary-img4{
+	background: url(../img1/预警1.png) no-repeat 0px 0px;
+}
+.summary-img5{
+	background: url(../img1/控制.png) no-repeat 0px 2px;
+}
+.content{
+	position:relative;
+}
+.summaryContent-left{
+	float: left;
+	width:862px;
+	height:648px;
+	padding:22px 20px 0px 20px;
+	border-right:1px solid #154285;
+}
+.summaryContent-right{
+	border-right: 0;
+}
+.summaryContent-img{
+	clear: both;
+	width:587px;
+	height: 333px;
+	margin:auto;
+	margin-top:68px;
+}
+.summaryContent-img>img{
+	width:100%;
+	height:100%;
+}
+p.summaryContent-info{
+	font-size: 17px;
+	text-align: center;
+	letter-spacing: 1px;
+	color: #acacac;
+	margin-top:14px;
+	margin-bottom:30px;
+}
+p.summaryContent-detail1{
+	padding-left:13px;
+	font-size: 20px;
+	line-height:30px;
+	letter-spacing: 1px;
+	color: #ececec;
+}
+.tabcontent-second{
+	/* height:700px; */
+	/*background:#fff;*/
+}
+.sumContent{
+	position: relative;
+    width:1868px;
+    height:753px;
+    overflow: auto;
+}
+.sumContent-all{
+	position: relative;
+	width:1868px;
+	height:859px;
+	border-bottom:1px solid #154285;
+}
+.sumContent-1{
+	position: relative;
+	float: left;
+	width:1074px;
+	height:859px;
+	border-right:1px solid #154285;
+}
+.sumContent-2{
+	width:1034px;
+	height:230px;
+	padding:15px 20px 0px 20px;
+	border-bottom: 1px solid #154285;
+}
+.sumContent-title{
+	padding-left:45px;
+	display: block;
+	width:280px;
+	height:35px;
+	font-size: 24px; 
+	line-height:35px;
+	letter-spacing: 1px;
+	color: #92bdff;
+	background: url(../img1/统计.png) no-repeat;
+}
+.content1List{
+	position: relative;
+	width:340px;
+	height:120px;
+	text-align: center;
+	margin-top: 50px;
+	float: left;
+}
+.content1List>.imgquery{
+	position: absolute;
+	margin-top:-125px;
+	margin-left:55px;
+}
+.content1big{
+	font-size: 72px;
+	line-height:60px;
+	color: #f4f4f4;
+}
+.content1small{
+	font-size: 22px;
+	line-height: 48px;
+	color: #92bdff;
+}
+.content1all{
+	font-size: 22px;
+	letter-spacing: 1px;
+	color: #d9d9d9;
+}
+.sumContent-3{
+	width:1052px;
+	height:583px;
+	padding-left:20px;
+	padding-top:28px;
+}
+.sumContent-title1{
+	background: url(../img1/能力管理.png) no-repeat;
+}
+.sumContent-box{
+	float: left;
+	margin-right:240px;
+}
+.sunContent-tab{
+	font-size: 26px;
+	line-height: 48px;
+	letter-spacing: 2px;
+	color: #92bdff;
+	display: block;
+	float: left;
+	margin-left:35px;
+	margin-top:45px;
+}
+.sumContent-chart{
+	clear: both;
+	position: absolute;
+	margin-left:35px;
+	margin-top:145px;
+	width:530px;
+	height:400px;
+}
+.sumContent-4{
+	width:793px;
+	height:857px;
+	float: right;
+	overflow:auto;
+}
+.sumContent-5{
+	padding-left:20px;
+	padding-top:15px;
+	width:773px;
+	/* height:2000px; */
+}
+.sumContent-title2{
+	background: url(../img1/排名.png) no-repeat;
+}
+.sumRank{
+	font-size: 26px;
+	line-height: 48px;
+	letter-spacing: 2px;
+	color: #fafafa;
+}
+
+.sumContent-5>p{
+	position: relative;
+	width:773px;
+	height:25px;
+	padding-top:10px;
+	padding-bottom: 10px;
+}
+.sumRank-title{
+	display: block;
+	float: left;
+	width:140px;
+	height: 25px;;
+	font-size: 22px;
+	font-weight: normal;
+	font-stretch: normal;
+	letter-spacing: 1px;
+	color: #dddddd;
+}
+.sumRank-num{
+	float: left;
+	display:block;
+	width:516px;
+	height: 25px;
+	/*background: rgba(21,90,191,0.25);*/
+    background: url(../img/line.png)no-repeat;
+}
+.sumRank-demo{
+	display:block;
+	position: absolute;
+	background: rgba(21,90,191,0.25);
+	width:200px;
+	height:20px;
+}
+.sumContent-bottom{
+	width:100%;
+	height:100%;
+}
+.sumBottom{
+	position:relative;
+	height:160px;
+	width:100%;
+	border-bottom:1px solid #154285;
+}
+.sumBottom-2{
+	float: left;
+	width:308px;
+	height:160px;
+	border-left:1px solid #154285;
+	border-right:1px solid #154285;
+}
+.sumBottom-1{
+	float: left;
+	padding-left:30px;
+	padding-top:30px;
+	width:380px;
+	height:130px;
+}
+.sumBottom-3{
+	float: left;
+	width:1109px;
+	height:160px;
+}
+.sumBottom-title{
+	display:inline-block;
+	font-size: 24px;
+	padding-left:40px;
+	letter-spacing: 1px;
+	color: #92bdff;
+	width:200px;
+	height:25px;
+	background: url(../img1/详情.png)no-repeat;
+}
+.sumBottom-title1{
+	font-size: 26px;
+	font-weight: normal;
+	font-stretch: normal;
+	line-height:135px;
+	letter-spacing: 2px;
+	color: #fafafa;
+}
+.sumBottom-title2{
+	position: absolute;
+	margin-top:55px;
+	margin-left:80px;
+} 
+.sumBottom-nav{
+	width:1866px;
+	height:600px;
+	
+}
+.secneContentBox {
+	padding-top: 0px;
+}
+
+
+
+
+
+
+
+
+/*滚动条*/
+.tabcontent-first::-webkit-scrollbar {
+	width: 10px;  
+	height: 0px;  
+	background-color: #F5F5F5;  
+	}  
+/*定义滚动条轨道 内阴影+圆角*/  
+.tabcontent-first::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.28);  
+	background: #6f747c ;  
+}  
+/*定义滑块 内阴影+圆角*/  
+.tabcontent-first::-webkit-scrollbar-thumb {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	background-color:rgba(53, 58, 60, 1);  
+	}  
+.tabcontent-first::-webkit-scrollbar-thumb:hover {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	background-color:rgba(53, 58, 60, 1);  
+}  
+
+/*滚动条*/
+.sumContent::-webkit-scrollbar {
+	width: 10px;  
+	height: 0px;  
+	background-color: #F5F5F5;  
+	}  
+/*定义滚动条轨道 内阴影+圆角*/  
+.sumContent::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.28);  
+	background: #6f747c ;  
+}  
+/*定义滑块 内阴影+圆角*/  
+.sumContent::-webkit-scrollbar-thumb {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	background-color:rgba(53, 58, 60, 1);  
+	}  
+.sumContent::-webkit-scrollbar-thumb:hover {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	background-color:rgba(53, 58, 60, 1);  
+} 
+/*滚动条*/
+.sumContent-4::-webkit-scrollbar {
+	width: 10px;  
+	height: 0px;  
+	background-color: #F5F5F5;  
+	}  
+/*定义滚动条轨道 内阴影+圆角*/  
+.sumContent-4::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.28);  
+	background: #6f747c ;  
+}  
+/*定义滑块 内阴影+圆角*/  
+.sumContent-4::-webkit-scrollbar-thumb {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	background-color:rgba(53, 58, 60, 1);  
+	}  
+.sumContent-4::-webkit-scrollbar-thumb:hover {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	background-color:rgba(53, 58, 60, 1);  
+}
+
+#top1{
+	height:10px;
+}
+#yinji{
+	height:25px;
+}
+.btm{
+	padding-bottom:100px
+}
+#bottom{
+	height:20px;
+}

@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title></title>
+		<link rel="stylesheet" href="../css/reset.css" />
+		<style>
+		.sence-mediaitem::-webkit-scrollbar {
+		width: 10px;  
+		height: 4px;  
+		background: rgba(21,90,191,0.25); 
+} 
+.team-list::-webkit-scrollbar {
+	width: 10px;  
+		height: 4px;  
+		background: rgba(21,90,191,0.25); 
+}
+/*.center-media::-webkit-scrollbar {
+	width: 10px;  
+		height: 4px;  
+		background: rgba(21,90,191,0.25); 
+}*/
+
+/*滚动条*/
+.center-sencetask::-webkit-scrollbar {
+	width: 10px;  
+	height: 0px;  
+	background-color: #F5F5F5;  
+	}  
+/*定义滚动条轨道 内阴影+圆角*/  
+.center-sencetask::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.28);  
+	background: #6f747c ;  
+}  
+/*定义滑块 内阴影+圆角*/  
+.center-sencetask::-webkit-scrollbar-thumb {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	background-color:rgba(53, 58, 60, 1);  
+	}  
+.center-sencetask::-webkit-scrollbar-thumb:hover {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	background-color:rgba(53, 58, 60, 1);  
+}  
+/*滚动条*/
+.center-media::-webkit-scrollbar {
+	width: 10px;  
+	height: 0px;  
+	background-color: #F5F5F5;  
+	}  
+/*定义滚动条轨道 内阴影+圆角*/  
+.center-media::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.28);  
+	background: #6f747c ;  
+}  
+/*定义滑块 内阴影+圆角*/  
+.center-media::-webkit-scrollbar-thumb {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	background-color:rgba(53, 58, 60, 1);  
+	}  
+.center-media::-webkit-scrollbar-thumb:hover {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	background-color:rgba(53, 58, 60, 1);  
+}
+.center{
+	width:1870px;
+	height:900px;
+	border:1px solid #156164;
+	border-radius: 5px;
+	background: rgba(6,13,24,0.7);
+}
+.center-sencetask{
+	width:1871px;
+	height:280px;
+	overflow-x:hidden;
+	overflow-y:auto;
+	border-bottom:1px solid #154285;
+}
+.center-sencetitle{
+	padding:34px 0 30px 20px;
+	font-size: 24px;
+	color: #ebf7ff;
+}
+.center-taskbox{
+	width:1838px;
+	height:64px;
+	margin:auto;
+	margin-bottom:20px;
+}
+.center-left{
+	margin-right:100px;
+	float: left;
+	width:660px;
+	height:64px;
+}
+.center-taskname{
+	display: inline-block;
+	width:125px;
+	height:64px;
+	font-size: 24px;
+	line-height:64px;
+	color: #ebf7ff;
+}
+.center-left>input{
+	float: right;
+	border:0;
+	outline: none;
+	width:535px;
+	height: 62px;
+	font-size: 25px;
+	color:#fff;
+	text-indent:15px;
+	background: rgba(21,90,191,0.25);
+}
+.center-right{
+	float:left;
+	width:610px;
+}
+.center-right>input{
+	float: right;
+	border:0;
+	outline: none;
+	width:485px;
+	height: 62px;
+	font-size: 25px;
+	color:#fff;
+	text-indent:15px;
+	background: rgba(21,90,191,0.25);
+}
+.center-taskbtn{
+	float: right;
+	width:330px;
+	height:64px;
+}
+.center-taskbtn>span{
+	display:block;
+	float: left;
+	width:155px;
+	height:56px;
+	margin-top:4px;
+	text-align: center;
+	line-height:56px;
+	font-size: 24px;
+    color: #ebf7ff;
+	border-radius: 3px;
+}
+.center-addbtn{
+	cursor: pointer;
+	background-color: #1f90e6;
+}
+.center-delbtn{
+	cursor:pointer;
+	margin-right:20px;
+	background-color: #51555c;
+}
+.center-senceinfo{
+	width:1878px;
+	height:551px;
+}
+.center-senceinfotitle{
+	width:1858px;
+	padding-left:20px;
+	height:80px;
+	line-height: 80px;
+	font-size: 24px;
+	letter-spacing: -1px;
+	color: #ebf7ff;
+}
+.center-senceitem{
+	position:relative;
+	margin:auto;
+	width:1838px;
+	height:64px;
+}
+.center-sencename{
+	display:inline-block;
+	width:125px;
+	height:64px;
+	line-height:64px;
+	font-size: 25px;
+	letter-spacing: 1px;
+	color: #ffffff;
+}
+.center-senceitem>input{
+	text-indent:15px;
+	font-size: 25px;
+	color:#fff;
+	border:0;
+	outline:none;
+	width:1712px;
+	height:64px;
+	background: rgba(21,90,191,0.25);
+}
+.center-media{
+	position: relative;
+	width:1740px;
+	padding-left:145px;
+    height:360px;
+    overflow: auto;
+}
+.center-mediatitle{
+	padding-left:0;
+}
+.censence-upload{
+	margin-top:20px;
+	width:1215px;
+	height:180px;
+	/*background:#0ff;*/
+}
+.censence-mediaimg{
+	width:250px;
+	height:140px;
+}
+.censence-upload>textarea{
+	position: absolute;
+	margin-top:-140px;
+	margin-left:316px;
+	display: inline-block;
+	width: 690px;
+	height: 122px;
+	border:0;
+	outline: none;
+	background: rgba(21,90,191,0.25);
+	font-size: 20px;
+	color:#fff;
+	padding-top:18px;
+	padding-left:17px;
+}
+.censence-mediabtn{
+	position:absolute;
+	width: 162px;
+	height:72px;
+}
+.censencebtn-del{
+	display:block;
+	width:76px;
+	height:72px;
+	float:left;
+	margin-top:-70px;
+	margin-left:1055px;
+}
+.censencebtn-add{
+	display:block;
+	width:76px;
+	height:72px;
+	float:left;
+	margin-top:-72px;
+	margin-left:1140px;
+}
+		</style>
+	</head>
+	<body>
+		<div class="center">
+	    	<div class="center-sencetask">
+	    		<p class="center-sencetitle">场景任务</p>
+	    		<div class="center-taskbox">
+	    			<p class="center-left"><label class="center-taskname">任务一:</label><input type="text" placeholder="各级应急响应启动"></p>
+	    			<p class="center-right"><label class="center-taskname">责任组别:</label><input type="text"></p>
+	    			<div class="center-taskbtn">
+	    			    <span class="center-delbtn">删除</span>
+	    				<span class="center-addbtn">添加</span>
+	    			</div>
+	    		</div>
+	    	</div>
+	         <div class="center-senceinfo">
+	        	<p class="center-senceinfotitle">场景说明</p>
+	        	<p class="center-senceitem"><label class="center-sencename">场景一:</label><input type="text" placeholder="请输入该阶段的场景说明"></p>
+	        	<p class="center-senceinfotitle">媒体信息</p>
+	            <div class="center-media">
+	        	    <div class="censence-upload">
+	    	    			<div class="censence-mediaimg">
+	    	    				<div id="preview">
+	                                <img id="imghead" border="0" src="../img1/sence3.png" width="250" height="140" onClick="$('#previewImg').click();">
+                                </div>         
+                                <input type="file" onChange="previewImage(this)" style="display: none;" id="previewImg">
+	    	    			</div>
+	    	    			<textarea placeholder="文字说明"></textarea>
+	    	    			<div class="censence-mediabtn">
+	    	    				<span class="censencebtn-del"><img src="../img1/sence1.png"></span>
+	    	    				<span class="censencebtn-add"><img src="../img1/sence2.png"></span>
+	    	    		    </div>
+	    	    	</div>
+	            </div> 
+	        </div>
+	        
+	    </div>
+	    <script type="text/javascript" src="../js/jquery.min.js" ></script>
+	<script type="text/javascript" src="../js/newbuild.js" ></script>
+	<script type="text/javascript" src="../js/uploadimg.js" ></script>
+	</body>
+</html>

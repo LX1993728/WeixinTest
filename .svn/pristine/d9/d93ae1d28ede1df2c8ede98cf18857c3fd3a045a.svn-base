@@ -1,0 +1,68 @@
+/*去掉高德地图logo和版权*/
+.amap-logo,.amap-copyright{
+  display: none !important;
+}
+/*.amap-icon{
+  display: none !important;
+}*/
+.amap-marker-label{
+  display: none !important;
+
+}
+.amap-lib-marker-from,
+.amap-lib-marker-to{
+   display: none !important;
+
+}
+.rectangle{
+	top:318px;
+}
+.image_style_marker{
+	width: 43px;
+}
+.person_marker_style{
+	width: 30px;
+}
+.point_style{
+    width: 116px;
+    height: 48px;
+    background: black;
+    opacity: .7;
+    line-height: 48px;
+    text-align: center;
+    color: white;
+    border: 1px solid #2b5f9c;
+    border-radius: 5px;
+    font-size: 23px;
+}
+.point_plan_style{
+  width: 35px;
+  height: 44px;
+
+
+}
+.image_style_marker_disaster{
+  width: 39px;
+  height: 46px;
+
+}
+.znya{
+  width: 100%;
+    height: 79px;
+    font-size: 26px !important;
+    color: white !important;
+}
+.disaster_area{
+  text-overflow: ellipsis;
+  overflow: hidden;
+  white-space: nowrap;
+  display: block;
+  margin-top: -38px;
+  margin-left: 86px;
+}
+.navigation>li>p{
+  cursor: pointer;
+}
+.groupCirle_highlight{
+  color: #89b1ef;
+}

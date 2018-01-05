@@ -1,0 +1,1216 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
+	<link rel="stylesheet" href="./css/css_reset.css">
+	<link rel="stylesheet" href="./css/manoeuvre.css">
+	<link rel="stylesheet" type="text/css" href="css/graded.css"/>
+	<title>药品安全突发事件演练</title>
+</head>
+<body>
+	<div class="page manoeuvre">
+		
+		<!-- 内容区 -->
+		
+		<div class="content" id="content1">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName"></h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 1/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">1/16：演练准备-演练组织-组织指挥机构</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     是否设立演练组织领导机构，职责分工是否明确，是否设置演练总指挥部，是否设置总指挥、副总指挥等指挥控制岗位</p>
+								<p>②     参与演练的成员单位责任分工是否明确</p>
+								<p>③     指挥人员是否佩戴袖标或演练职务标识证牌。</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<span class="spanLeft">上一题</span>
+						<input class="btnRight" type="button" value="下一题" index='1'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content2" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 2/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">2/16：演练准备-演练组织-处置队伍</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     是否设立处置队伍参与演练</p>
+								<p>②     处置队伍的设置是否符合应急预案规定的框架</p>
+								<p>③     是否设置专家组，专业对口并提供处置技术方案</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题"  index='1'>
+						<input class="btnRight" type="button" value="下一题" index='2'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content3" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 3/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">3/16：演练准备-演练方案-演练计划</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     演练目标的制定是否有针对性，是否贴近实际</p>
+								<p>②     是否符合预案规定，按照“先单项后综合、循序渐进、时空有序”的原则制定</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='2'>
+						<input class="btnRight" type="button" value="下一题" index='3'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content4" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 4/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">4/16：演练准备-演练方案-情景构建</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     是否按照演练计划，构建事件类别、级别</p>
+								<p>②     情景构建是否矩阵仿真性，危害性与影响范围等是否符合实际</p>
+								<p>③     是否以情景构建为基础编制演练脚本，台词是否贴近实际</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='3'>
+						<input class="btnRight" type="button" value="下一题" index='4'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content5" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 5/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">5/16：演练准备-演练保障-场地保障</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     是否设置集中的演练场所，是否符合处置队伍的需要</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='4'>
+						<input class="btnRight" type="button" value="下一题" index='5'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content6" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 6/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">6/16：演练准备-演练保障-经费保障</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     是否安排演练经费，是否充足</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='5'>
+						<input class="btnRight" type="button" value="下一题" index='6'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content7" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 7/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">7/16：演练实施-信息沟通-演练解说</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     演练背景、进程等解说是否清晰正确</p>
+								<p>②     演练解说与演练计划、演练脚本是否同步、匹配</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='6'>
+						<input class="btnRight" type="button" value="下一题" index='7'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content8" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 8/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">8/16：演练实施-信息沟通-信息报告</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     是否及时、清楚，要素是否齐全</p>
+								<p>②     是否按信息报告要求逐级上报</p>
+								<p>③     上级的处置指令是否及时传达</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='7'>
+						<input class="btnRight" type="button" value="下一题" index='8'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content9" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 9/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">9/16：演练实施-信息沟通-信息披露</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     是否按照信息发布的要求及时披露事件信息</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='8'>
+						<input class="btnRight" type="button" value="下一题" index='9'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content10" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 10/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">10/16：演练实施-应急响应-分级响应</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     是否落实先期处置措施</p>
+								<p>②     是否按预案设置分级响应</p>
+								<p>③     分级响应是否迅速、准确</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='9'>
+						<input class="btnRight" type="button" value="下一题" index='10'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content11" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 11/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">11/16：演练实施-应急响应-处置措施</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     是否按照发生真实事件模拟设置的应急处置程序进行处置</p>
+								<p>②     处置措施是否全面，联动处置措施是否到位</p>
+								<p>③     是否建立技术处置方案，处置方法是否科学得当</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='10'>
+						<input class="btnRight" type="button" value="下一题" index='11'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content12" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 12/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">12/16：演练实施-应急响应-指挥控制能力</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     演练全程指挥处置是否果断、有序，是否具备较强的指挥控制能力</p>
+								<p>②     指挥过程与应急预案、演练脚本是否一致</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='11'>
+						<input class="btnRight" type="button" value="下一题" index='12'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content13" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 13/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">13/16：演练实施-舆情应对-舆论引导</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     是否组织新闻发布会并安排媒体参与</p>
+								<p>②     新闻发布要素是否全面、及时</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='12'>
+						<input class="btnRight" type="button" value="下一题" index='13'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content14" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 14/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">14/16：总结阶段-演练分析-点评分析</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     是否组织演练分析总结会，讲评是否全面</p>
+								<p>②     结合应急预案，是否查找出存在的不足</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='13'>
+						<input class="btnRight" type="button" value="下一题" index='14'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content15" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 15/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">15/16：总结阶段-演练分析-总结提炼</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     是否对演练进行总体总结</p>
+								<p>②     针对不足，是否提出针对性改进措施、改进计划，包括修订预案、完善响应措施等方面内容</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='14'>
+						<input class="btnRight" type="button" value="下一题" index='15'>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="content" id="content16" style="display:none">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manouvreName">应急演练</h2>
+			</div>
+			<!-- 题目及评分 -->
+			<div class="conter">
+				<!-- 16/16 -->
+				<div class="exam">
+					<!-- 考题内容 -->
+					<div class="exam-content">
+						<div class="examCon-title">16/16：总结阶段-资料整理-演练记录</div>
+						<div class="examCon-con">
+							<div class="clearfix title">
+								<h3>评分说明</h3>
+								<span>（总分5分）</span>
+								<h3>：</h3>
+							</div>
+							<div>
+								<p>①     演练全过程安排有文字、音像记录，并作整理归档</p>
+							</div>
+						</div>
+					</div>
+					<!-- 评分 -->
+					<div class="exam-grade">
+						<div class="mod_select">
+						    <ul>
+						        <li>
+						            <div class="select_box">
+						                <span class="select_txt">请评分</span><a class="selet_open"><i></i></a>
+						                <div class="option">
+						                	<a>0</a>
+						                    <a>1</a>
+						                    <a>2</a>
+						                    <a>3</a>
+						                    <a>4</a>
+						                    <a>5</a>
+						                </div>
+						            </div>
+						            <br clear="all" />
+						        </li>
+						    </ul>
+						    <input type="hidden" class="select_value" />
+						</div>
+					</div>
+					<!-- 翻页按钮 -->
+					<div class="exam-btn clearfix">
+						<input class="btnLeft" type="button" value="上一题" index='15'>
+						<span class="spanRight" id="submitData">提交</span>
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		<!--评分结果-->
+		
+		<div class="content" id="content17" style="display:none;">
+			<!-- 标题 -->
+			<div class="title">
+				<h2 class="manoeuvreName">应急演练</h2>
+			</div>
+			<div class="totalPoints">
+				评分结果:
+			</div>
+			<!--打分表格详情-->
+			<div class="ScoreBar">
+				<table>
+					<thead>
+						<tr>
+							<th class="level01">一级指标</th>
+							<th class="level02">二级指标</th>
+							<th class="level03">三级指标</th>
+							<th class="level04">评分</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<td rowspan="6">
+								<h4 class="tabFirst">演练准备</h4>
+								<p><em>25</em>分</p>
+							</td>
+							<td rowspan="2">
+								<h5 class="tabSec">演练组织</h5>
+								<p><em>25</em>分</p>
+							</td>
+							<td>
+								<h6>组织指挥机构</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>1-4</td>
+						</tr>
+						<tr>
+							<td>
+								<h6>处置队伍</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>2-4</td>
+						</tr>
+						<tr>
+							<td rowspan="2">
+								<h5 class="tabSec">演练方案</h5>
+								<p><em>25</em>分</p>
+							</td>
+							<td>
+								<h6>演练计划</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>3-4</td>
+						</tr>
+						<tr>
+							<td>
+								<h6>情景构建</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>4-4</td>
+						</tr>
+						<tr>
+							<td rowspan="2">
+								<h5 class="tabSec">演练保障</h5>
+								<p><em>25</em>分</p>
+							</td>
+							<td>
+								<h6>场地保障</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>5-4</td>
+						</tr>
+						<tr>
+							<td>
+								<h6>经费保障</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>6-4</td>
+						</tr>
+						<!-- 隐藏部分信息 -->
+						<tr class="hideTr">
+							<td rowspan="7">
+								<h4 class="tabFirst">演练实施</h4>
+								<p><em>25</em>分</p>
+							</td>
+							<td rowspan="3">
+								<h5 class="tabSec">信息沟通</h5>
+								<p><em>25</em>分</p>
+							</td>
+							<td>
+								<h6>演练解说</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>1-4</td>
+						</tr>
+						<tr class="hideTr">
+							<td>
+								<h6>信息报告</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>2-4</td>
+						</tr>
+						<tr class="hideTr">
+							<td>
+								<h6>信息披露</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>3-4</td>
+						</tr>
+						<tr class="hideTr">
+							<td rowspan="3">
+								<h5 class="tabSec">应急响应</h5>
+								<p><em>25</em>分</p>
+							</td>
+							<td>
+								<h6>分级响应</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>4-4</td>
+						</tr>
+						<tr class="hideTr">
+							<td>
+								<h6>处置措施</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>5-4</td>
+						</tr>
+						<tr class="hideTr">
+							<td>
+								<h6>指挥控制能力</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>6-4</td>
+						</tr>
+						<tr class="hideTr">
+							<td>
+								<h5 class="tabSec">舆情应对</h5>
+								<p><em>25</em>分</p>
+							</td>
+							<td>
+								<h6>舆论引导</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>7-4</td>
+						</tr>
+						<tr class="hideTr">
+							<td rowspan="3">
+								<h4 class="tabFirst">总结阶段</h4>
+								<p><em>25</em>分</p>
+							</td>
+							<td rowspan="2">
+								<h5 class="tabSec">演练分析</h5>
+								<p><em>25</em>分</p>
+							</td>
+							<td>
+								<h6>点评分析</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>1</td>
+						</tr>
+						<tr class="hideTr">
+							<td>
+								<h6>总结提炼</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>2</td>
+						</tr>
+						<tr class="hideTr">
+							<td>
+								<h5 class="tabSec">资料整理</h5>
+								<p><em>25</em>分</p>
+							</td>
+							<td>
+								<h6>演练记录</h6>
+								<p><em>25</em>分</p>
+							</td>
+							<td>3</td>
+						</tr>
+						<tr>
+							<td colspan="3">总分（以上六项得分总和）</td>
+							<td id="totalNum">99</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+			<div class="thanksTitle">
+				<div class="content">
+					<span>感谢您的参与！我们将综合考量您的评分结果生成最终演练评估报告。</span>
+					<!-- <input type="button" value="完成" class=""> -->
+				</div>
+			</div>
+		</div>
+		
+	</div>
+	<script src="./js/jquery.min.js"></script>
+	<script>
+	$(function(){
+		getManouvreName();
+	})
+	function getManouvreName(){
+       $.ajax({
+		 		url: '/statistic/getManouvreName',
+		 		type: "post",
+		 		dataType: 'JSON',
+		 		success:function(data){
+		 			 $(".manouvreName").html(data.name)		
+		 		}
+	       })
+    }
+	$(".select_box").click(function(event){   
+                event.stopPropagation();
+                $(this).find(".option").toggle();
+                $(this).parent().siblings().find(".option").hide();
+            });
+            $(document).click(function(event){
+                var eo=$(event.target);
+                if($(".select_box").is(":visible") && eo.attr("class")!="option" && !eo.parent(".option").length)
+                $('.option').hide();                                      
+            });
+            /*赋值给文本框*/
+            $(".option a").click(function(){
+                var value=$(this).text();
+                $(this).parent().siblings(".select_txt").text(value);
+                $(this).parent().parent().siblings('.select_value').val(value);
+                var $btnRights = $(this).parents('.exam-grade').siblings('.exam-btn').children('.btnRight');
+                nextPage ($btnRights,value);
+             })
+	// 所有的题目盒子
+	var $contents = $(".content");
+	// 所有的上翻页按钮
+	var $btnLefts = $(".btnLeft");
+	
+	var parmas =[];
+	function nextPage ($btnRights,value){
+		// 点击下一题时让页面向后翻页
+		$btnRights.click(function(){
+			var h = $(this).attr('index');
+			var s = Number(h)+1;
+			var conID = '#content'+h;
+			$("#content"+h).hide('slow');
+			$("#content"+s).show('slow');
+			parmas[Number(h-1)] =parseInt(value)
+		});
+		// 点击上一题时让页面向前翻页
+		$btnLefts.click(function(){
+			var s = $(this).attr('index');
+			var h = Number(s)+1;
+			$("#content"+h).hide('slow');
+			$("#content"+s).show('slow');
+		});
+	}
+
+
+	//提交数据
+	$("#content16").find('.mod_select').find('a').click(function(){
+		var value=$(this).text();
+		submitData(value);
+	})
+
+	function submitData(value){
+		$('#submitData').unbind("click").click(function(){
+				var totalNum = 0;
+				parmas[15] = parseInt(value);
+				//console.log(parmas)
+				// 创建一个一级方案对应的数组
+				var firstObj = {};
+				//		 '演练准备';
+				firstObj.score1 = parmas[0] + parmas[1] + parmas[2] + parmas[3] + parmas[4] + parmas[5];
+				//		'演练实施';
+				firstObj.score2 = parmas[6] + parmas[7] + parmas[8] + parmas[9] + parmas[10] + parmas[11] + parmas[12];
+				//		'总结阶段';
+				firstObj.score3 = parmas[13] + parmas[14] + parmas[15];
+				// 创建一个二级方案对应的数组
+				var secondObj = {};
+				//         '演练组织';
+				secondObj.score1 = parmas[0] + parmas[1];
+				//        secondObj.name2 = '演练方案';
+				secondObj.score2 = parmas[2] + parmas[3];
+				//        secondObj.name3 = '演练保障';
+				secondObj.score3 = parmas[4] + parmas[5];
+				//        secondObj.name4 = '信息沟通';
+				secondObj.score4 = parmas[6] + parmas[7] + parmas[8];
+				//        secondObj.name5 = '应急响应';
+				secondObj.score5 = parmas[9] + parmas[10] + parmas[11];
+				//        secondObj.name6 = '舆情应对';
+				secondObj.score6 = parmas[12];
+				//        secondObj.name7 = '演练分析';
+				secondObj.score7 = parmas[13] + parmas[14];
+				//        secondObj.name8 = '资料整理';
+				secondObj.score8 = parmas[15];
+				$(".tabFirst").each(function (i, val) {
+					var score = 'score' + (i + 1);
+					$(this).siblings('p').children('em').html(firstObj[score])
+				})
+				$(".tabSec").each(function (i, val) {
+					var score = 'score' + (i + 1);
+					$(this).siblings('p').children('em').html(secondObj[score])
+				})
+				$('.ScoreBar td h6').each(function (i, val) {
+					$(this).siblings('p').children('em').html(parmas[i]);
+				})
+				$('.ScoreBar tbody tr td:last-child').each(function (i) {
+					$(this).html(parmas[i]);
+				})
+				$.each(parmas, function (i, val) {
+					totalNum += parseInt(val);
+				})
+				$('#totalNum').html(totalNum);
+				$('#content16').hide('slow');
+				$('#content17').show('slow');
+
+				console.log(parmas)
+				$.ajax({
+			 		url: '/statistic/statisticByScore',
+			 		type: "post",
+			 		dataType: 'JSON',
+			 		data:{
+			 			 params:JSON.stringify(parmas)
+			 		},success:function(data){
+			 			 console.info(data)
+			 			 		
+			 		},error : function() {
+		    			console.log('访问失败');
+		    		},
+	           })
+		})
+	}
+	
+	
+
+	</script>
+</body>
+</html>

@@ -1,0 +1,59 @@
+/* CSS Document */
+ *{ padding:0; margin:0;}
+a{text-decoration:none;}
+li,ol{ list-style:none;}
+b,strong{ font-weight:normal;}
+i,em{ font-style:normal;}
+.clearfix:after{ display:block;content:'';height:0; clear:both; visibility:hidden; }
+.clearfix{ zoom:1;}
+li{ list-style-type:none;}
+h1,h2,h3,h4,h5,h6{font-weight: normal;}
+a{text-decoration:none; }
+input,select{resize:none;}
+img{ border:0;}
+.fl{ float:left; }
+.fr{ float:right;}
+input{border:0; outline:none; background:none;}
+table{ border-collapse:collapse;text-align:center; vertical-align:middle;} 
+body{font-family:"Microsoft Yahei", Tahoma, "\5b8b\4f53", Arial, Helvetica;font-size:12px;}
+/* 媒体查询 */
+html{font-size:625%}
+@media only screen and (max-width: 374px){
+    html {
+        font-size: 312.5% !important;
+    }
+}
+@media only screen and (min-width: 375px){
+    html {
+        font-size: 350% !important;
+    }
+}
+@media only screen and (min-width: 401px){
+    html {
+        font-size: 390.625% !important;
+    }
+}
+@media only screen and (min-width: 428px){
+    html {
+        font-size: 417.9% !important;
+    }
+}
+@media only screen and (min-width: 481px){
+    html {
+        font-size: 468.75% !important; 
+    }
+}
+@media only screen and (min-width: 569px){
+    html {
+        font-size: 546.875% !important; 
+    }
+}
+@media only screen and (min-width: 640px){
+    html {
+        font-size: 625% !important; 
+    }
+}
+.page {
+  max-width: 640px;
+  margin: 0 auto;
+}

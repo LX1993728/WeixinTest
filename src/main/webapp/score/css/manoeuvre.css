@@ -1,0 +1,223 @@
+.manoeuvre {
+	width: 6.4rem;
+	height: 9rem;
+	box-sizing:border-box;
+}
+
+.manoeuvre .content {
+	width: 6.4rem;
+	height: 9rem;
+	box-sizing:border-box;
+}
+
+.manoeuvre .title {
+	width: 6.4rem;
+	height: 0.96rem;
+	line-height: 0.96rem;
+	padding-left: 0.25rem;
+}
+
+.manoeuvre .title h2 {
+	font-size: 0.35rem;
+	color: #1f1f1f;
+	text-align: left;
+}
+
+.manoeuvre .conter {
+	width: 6.4rem;
+	height: 8.04rem;
+	box-sizing:border-box;
+	padding-left: 0.3rem;
+	padding-right: 0.3rem;
+}
+
+.manoeuvre .conter .exam {
+	width: 5.8rem;
+	height: 8.04rem;
+}
+
+.manoeuvre .conter .exam-content {
+	width: 5.8rem;
+	margin-bottom: 0.2rem;
+	font-size: 0.28rem;
+	color: #787878;
+
+}
+
+.manoeuvre .conter .examCon-title {
+	width: 5.8rem;
+	height: 0.46rem;
+	line-height: 0.46rem;
+	border-bottom: 1px solid #787878;
+}
+
+.manoeuvre .conter.examCon-con {
+	width: 5.8rem;
+}
+
+.manoeuvre .conter.examCon-con .title {
+	width: 5.8rem;
+	height: 0.7rem;
+	line-height: 0.7rem;
+}
+
+.manoeuvre .conter .examCon-con .title h3 {
+	float: left;
+	font-size: 0.28rem;
+	color: #535353;
+}
+
+.manoeuvre .conter .examCon-con .title span {
+	float: left;
+	font-size: 0.26rem;
+}
+
+.manoeuvre .conter .examCon-con p {
+	font-size: 0.26rem;
+	color: #535353;
+	line-height: 1.5;
+	margin: 0.3rem auto;
+}
+
+.manoeuvre .conter .exam-grade {
+	width: 5.8rem;
+	height: 1rem;
+	font-size: 0.24rem;
+	color: #787878;
+	position: relative;
+}
+
+/* 模拟下拉菜单 */
+	.manoeuvre .conter .exam-grade .mod_select{position:absolute;left:0;top:0;font-familY:Arial, Helvetica, sans-serif;box-sizing:border-box;padding-left: 0.84rem;}
+    .manoeuvre .conter .exam-grade .mod_select ul{margin:0;padding:0;}
+    .manoeuvre .conter .exam-grade .mod_select ul li{list-style-type:none;float:left;margin-left:0.2rem;height:0.5rem;}
+    .manoeuvre .conter .exam-grade .select_label{color:#982F4D;float:left;line-height:0.24rem;padding-right:0.1rem;font-size:0.12rem;font-weight:700;}
+    .manoeuvre .conter .exam-grade .select_box{float:left;border:solid 1px #c3c3c3;color:#787878;position:relative;cursor:pointer;width:3.64rem;height: 0.5rem;font-size:0.28rem;}
+    .manoeuvre .conter .exam-grade .select_box i {
+    	width: 0.5rem;height: 0.5rem;display: block;background: url(../image/icon_selectPulldown.png) no-repeat center center;
+    }
+    .manoeuvre .conter .exam-grade .selet_open{display:inline-block;border-left:solid 1px #E5E5E5;position:absolute;right:0;top:0;width:0.5rem;height:0.5rem;}
+    .manoeuvre .conter .exam-grade .select_txt{display:inline-block;padding-left:0.1rem;width:3.64rem;line-height:0.5rem;height:0.5rem;cursor:text;overflow:hidden;}
+    .manoeuvre .conter .exam-grade .option{width:3.64rem;;border:solid 1px #c3c3c3;position:absolute;top:0.5rem;left:-1px;z-index:2;overflow:hidden;display:none;}
+    .manoeuvre .conter .exam-grade .option a{display:block;height:0.5rem;line-height:0.5rem;text-align:left;padding:0 0.1rem;width:100%;background:#fff;}
+    .manoeuvre .conter .exam-grade .option a:hover{background-color:#237bfd;color: #fff;}
+
+
+
+.manoeuvre .conter .exam-btn {
+	width: 4.3rem;
+	height: 0.54rem;
+	box-sizing:border-box;
+	margin-left: 0.4rem;
+}
+
+.manoeuvre .conter .exam-btn input {
+	width: 1.44rem;
+	height: 0.54rem;
+	font-size: 0.26rem;
+	color: #fff;
+}
+
+.manoeuvre .conter .exam-btn input:hover {
+	cursor: pointer;
+}
+
+.manoeuvre .conter .exam-btn span {
+	width: 1.44rem;
+	height: 0.54rem;
+	line-height: 0.54rem;
+	font-size: 0.26rem;
+	color: #838383;
+	box-sizing:border-box;
+	border:1px solid #838383;
+	text-align: center;
+}
+
+.manoeuvre .conter .exam-btn .spanLeft {
+	float: left;
+
+	margin-left: 0.45rem;
+}
+.manoeuvre .conter .exam-btn .spanRight {
+	float: right;
+	margin-right: -0.2rem;
+}
+
+.manoeuvre .conter .exam-btn .btnLeft {
+	float: left;
+	color: #838383;
+	box-sizing:border-box;
+	border:1px solid #838383;
+
+	margin-left: 0.45rem;
+}
+
+.manoeuvre .conter .exam-btn .btnRight {
+	float: right;
+	background-color: #237bfd;
+	margin-right: -0.2rem;
+}
+
+
+/* 评分表格 */
+.manoeuvre .content .totalPoints {
+	width: 5.8rem;
+	height: 0.4rem;
+	line-height: 0.4rem;
+	font-size: 0.28rem;
+	color: #787878;
+	margin-bottom: 0.24rem;
+	border-bottom: 1px solid #787878;
+}
+
+.ScoreBar td{
+	font-size: 0.24rem;
+	height: 0.8rem;
+	border:2px solid #535353;
+}
+.ScoreBar h4,h5,h6{
+	font-size: 0.22rem;
+}
+.ScoreBar th{
+	height: 0.38rem;
+	text-align: left;
+	font-size: 0.24rem;
+	border:2px solid #535353;
+}
+
+.ScoreBar .level01{
+	width: 1.36rem;
+}
+.ScoreBar .level02{
+	width: 1.58rem;
+}
+.ScoreBar .level03{
+	width: 2.08rem;
+}
+.ScoreBar .level04{
+	width: 0.72rem;
+}
+
+
+.manoeuvre .thanksTitle {
+	width: 5.8rem;
+	height: 2.9rem;
+	font-size: 0.24rem;
+	color: #787878;
+	box-sizing:border-box;
+}
+
+.manoeuvre .thanksTitle .content {
+	margin-top: 1rem;
+	text-align: center;
+}
+
+.manoeuvre .thanksTitle .content input {
+	width: 1.42rem;
+	height: 0.52rem;
+	border-radius: 4px;
+	font-size: 0.26rem;
+	color: #fff;
+	background-color: #237bfd;
+	margin-top: 0.5rem;
+}

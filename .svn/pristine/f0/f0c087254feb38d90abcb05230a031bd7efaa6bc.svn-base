@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/reset.css" />
+	<link rel="stylesheet" href="../css/summary.css" />
+	<link rel="stylesheet" href="../scroll/style.css" />
+	<link rel="stylesheet" href="../scroll/jquery.mCustomScrollbar.css" />
+</head>
+<body>
+	<div class="summary">
+		<div class="summary-tab">
+			<div class="tabbox">
+	            <div class="tab">
+    	            <a href="javascript:;" class="on">事件报告</a>
+                    <a href="javascript:;">评估统计</a>
+                </div>
+                <div class="tabcontent">
+    	            <ul>
+        	            <li style="display: block;" class="tabcontent-first">
+        	            	<div class="summary-report">
+        	            		<div class="summary-list">
+        	            			<a class="summary-listItem summary-img1" href="#top">原因清查</a>
+        	            			<a class="summary-listItem summary-img2" href="#top">伤亡情况</a>
+        	            			<a class="summary-listItem summary-img3" href="#center">应急响应</a>
+        	            			<a class="summary-listItem summary-img4" href="#center">预警发布</a>
+        	            			<a class="summary-listItem summary-img5" href="#bottom">舆情控制</a>
+        	            		</div>
+        	            		<div class="content">
+        	            			<div class="summaryContent-left">
+        	            				<a class="summary-listItem summary-img1" href="javascript:;" name="top">原因清查</a>
+        	            			    <div class="summaryContent-img"><img src="../img1/u1318.png"></div>
+        	            			    <p class="summaryContent-info">ADR区域预警监测系统</p>
+        	            			    <div class="summaryContent-detail">
+        	            			    	<p class="summaryContent-detail1">问题批次W药，批号20170202，共生产20800盒;</p>
+        	            			    	<p class="summaryContent-detail1">销往深圳市万圣药品批发有限公司17000盒、惠州市3000盒，康宁乐药业库存800盒。</p>
+        	            			    	<p class="summaryContent-detail1"> 现在，涉案药品已经全部查清，统一退回康宁乐药业，由D市食药监管局统一监督销毁。</p>
+        	            			    </div>
+        	            			</div>
+        	            			<div class="summaryContent-left summaryContent-right">
+        	            				<a class="summary-listItem summary-img2" href="javascript:;" name="top">伤亡情况</a>
+        	            			    <div class="summaryContent-img"><img src="../img1/u1318.png"></div>
+        	            			    <p class="summaryContent-info">伤亡情况</p>
+        	            			    <div class="summaryContent-detail">
+        	            			    	<p class="summaryContent-detail1">本次事件涉及人数总计49人，除1起病例因抢救无效死亡外，其余病例全部康复;</p>
+        	            			    	<p class="summaryContent-detail1">人员救治目标实现，并且无新增病例上报，应急医疗救助响应工作完成。</p>
+        	            			    </div>
+        	            			</div>
+        	            			<div class="summaryContent-left">
+        	            				<a class="summary-listItem summary-img3" href="javascript:;" name="center">应急响应</a>
+        	            			    <div class="summaryContent-img"><img src="../img1/u1368.png"></div>
+        	            			    <p class="summaryContent-info">各处置小组人数</p>
+        	            			    <div class="summaryContent-detail">
+        	            			    	<p class="summaryContent-detail1">本次事件的原因已经查清,为企业管理不善投料错误所致;</p>
+        	            			    	<p class="summaryContent-detail1">目前事件得到有效处置，问题药品已全部查明并已下架封存召回，符合药品安全事件应急响应终止的条件;</p>
+        	            			    	<p class="summaryContent-detail1"> 省食药监管局登陆REDS系统进行总结通报，宣布药品安全突发事件应急响应终止。</p>
+        	            			    </div>
+        	            			</div>
+        	            			<div class="summaryContent-left summaryContent-right">
+        	            				<a class="summary-listItem summary-img4" href="javascript:;" name="center">预警发布</a>
+        	            			    <div class="summaryContent-img"><img src="../img1/u1373.png"></div>
+        	            			    <p class="summaryContent-info">预警信息发布</p>
+        	            			    <div class="summaryContent-detail">
+        	            			    	<p class="summaryContent-detail1">共推送预警信息24万条，覆盖深圳全市；</p>
+        	            			    	<p class="summaryContent-detail1">其中通过全网短信发送预警信息13万；</p>
+        	            			    	<p class="summaryContent-detail1">微博阅读数量2万；</p>
+        	            			    	<p class="summaryContent-detail1">公众号阅读数量2万；</p>
+        	            			    	<p class="summaryContent-detail1">网站浏览量1.7万。</p>
+        	            			    	<p class="summaryContent-detail1">预警信息发送总耗时34分钟。</p>
+        	            			    </div>
+        	            			</div>
+        	            			<div class="summaryContent-left">
+        	            				<a class="summary-listItem summary-img3" href="javascript:;" name="bottom">舆情控制</a>
+        	            			    <div class="summaryContent-img"><img src="../img1/u1431.png"></div>
+        	            			    <p class="summaryContent-info">舆情风险预警图</p>
+        	            			    <div class="summaryContent-detail">
+        	            			    	<p class="summaryContent-detail1">事件发展过程中，监测到相关舆情热度有所上升，在事件先期发布了舆情风险黄色预警;</p>
+        	            			    	<p class="summaryContent-detail1">随事态升级，发布了舆情风险红色预警，并协调网警进行舆情管控，稳定民心。</p>
+                                    </div>
+        	            		</div>
+        	            	</div>
+        	            </li>
+                        <li class="tabcontent-second">
+                        	  <div class="content">
+                        	  	   <div class="sumContent">
+                        	  	       <div class="sumContent-all">
+                        	  	       	    <div class="sumContent-1">
+                        	  	       	    	<div class="sumContent-2">
+                        	  	       	    		<span class="sumContent-title">统计分析</span>
+                        	  	       	    	<div class="content1List">
+                                        			<span class="content1big allScore">94</span>
+                                        			<span class="content1small">分</span>
+                                        			<p class="content1all">总体得分</p>
+                                        			<img src="../img1/问好.png" class="imgquery">
+                                        		</div>
+                                        		<div class="content1List">
+                                        			<span class="content1big allPersonnum">94</span>
+                                        			<span class="content1small">人</span>
+                                        			<p class="content1all">参演人员</p>
+                                        		</div>
+                                        		<div class="content1List">
+                                        			<span class="content1big allDate">94</span>
+                                        			<span class="content1small">时</span>
+                                        			<span class="content1big allDateMin">94</span>
+                                        			<span class="content1small">分</span>
+                                        			<p class="content1all">演练用时</p>
+                                        		</div>
+                        	  	       	    	</div>
+                        	  	       	        <div class="sumContent-3">
+                        	  	       	        	<span class="sumContent-title sumContent-title1">能力分析</span>
+                        	  	       	            <div class="sumContent-box">
+                        	  	       	            	<span class="sunContent-tab">一级指标分析</span>
+                        	  	       	                <div class="sumContent-chart" id="firstLevel">
+                        	  	       	                </div>
+                        	  	       	            </div>
+                        	  	       	            <div class="sumContent-box sumContent-box1">
+                        	  	       	            	<span class="sunContent-tab">二级指标分析</span>
+                        	  	       	                <div class="sumContent-chart" id="secondLevel">
+                        	  	       	                </div>
+                        	  	       	            </div>
+                        	  	       	        </div>
+                        	  	       	    </div>
+                        	  	            <div class="sumContent-4">
+                        	  	            	<div class="content">
+                        	  	            		<div class="sumContent-5">
+                        	  	            			<span class="sumContent-title sumContent-title2">分项排名</span>
+                        	  	            		    <span class="sumRank">三级指标排名</span>
+                        	  	            		</div>
+                        	  	            	</div>
+                        	  	            </div>
+                        	  	       </div>
+                        	  	       <div class="sumContent-bottom">
+                        	  	            <div class="sumBottom">
+                        	  	            	<div class="sumBottom-1">
+                        	  	            		<span class="sumBottom-title">评估详情</span>
+                        	  	            	    <p class="sumBottom-title1">评估指标</p>
+                        	  	            	</div>
+                        	  	            	<div class="sumBottom-2">
+                        	  	            		<p class="sumBottom-title1 sumBottom-title2">得分及占比</p>
+                        	  	            	</div>
+                        	  	            	 <div class="sumBottom-3">
+                                                    <p class="sumBottom-title1 sumBottom-title2">评分及说明</p>
+                                                </div>
+                        	  	            </div>
+                        	  	            <div class="sumBottom-nav">
+                                                <iframe src="../pager/summary-box.html" class="content" height="600px" frameborder="0" scrolling="no" width="100%"></iframe>                      
+                        	  	            </div>
+                        	  	       </div>
+                        	  	   </div>
+                        	  </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+		</div>
+	</div>
+    <script type="text/javascript" src="../js/jquery.min.js" ></script>
+    <script type="text/javascript" src="../js/summary.js" ></script>
+    <script type="text/javascript" src="../js/echart/echarts.js" ></script>
+</body>
+</html>

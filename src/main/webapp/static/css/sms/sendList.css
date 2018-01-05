@@ -1,0 +1,363 @@
+.wrapper {
+	width: 1920px;
+	height: 1079px;
+	box-sizing:border-box;
+	background: url(../../img/sms/bgcImage.jpg) no-repeat;
+	overflow: hidden;
+}
+
+/* 顶部公共区域 */
+.header {
+	width: 100%;
+	height: 79px;
+	background-color: #0d192d;
+}
+
+/* 内容部分 */
+.page {
+	width: 100%;
+	height: 1000px;
+	box-sizing:border-box;
+	position: relative;
+}
+
+/* 搜索图标 */
+.sendList i.search {
+	width: 30px;
+	height: 30px;
+	background: url(../../img/sms/icon_search.png) no-repeat;
+	display: block;
+	float: left;
+	margin-top: 6px;
+}
+
+/* 下拉按钮图标 */
+.sendList i.pulldown {
+	float:right;
+	width: 22px;
+	height: 22px;
+	margin-top: 19px;
+	margin-right: 24px;
+	display: block;
+	background: url(../../img/sms/icon_pulldown.png) no-repeat;
+}
+
+/* 右拉按钮图标 */
+.sendList i.pullright {
+	float:right;
+	width: 22px;
+	height: 22px;
+	margin-top: 19px;
+	margin-right: 24px;
+	display: block;
+	background: url(../../img/sms/icon_pullright.png) no-repeat;
+}
+
+/* 参与成员 */
+
+.sendList .member {
+	position: absolute;
+	top: 12px;
+	left: -460px;
+}
+
+/* 解决滑出抖动bug */
+.sendList .member-bug {
+	width: 100px;
+	height: 1000px;
+	position: absolute;
+	top: 12px;
+	left: -100px;
+}
+
+.sendList .member-show {
+	width: 460px;
+	height: 1000px;
+	border: 1px solid #126062;
+	border-radius: 4px;
+	box-sizing:border-box;
+	background-color: #050d19;
+	/* margin-left: 16px;
+	margin-top: 12px; */
+/* 	position: absolute;
+	top: 12px;
+	left: 16px; */
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+
+.sendList .member-hidden {
+	width: 16px;
+	height: 1000px;
+	background-color: #145d99;
+/* 	position: absolute;
+	top: 12px;
+	left: 0; */
+}
+
+/* 又拉双箭头图标 */
+.sendList i.rightArrow {
+	width: 12px;
+	height: 12px;
+	display: block;
+	margin-top: 450px;
+	background: url(../../img/sms/icon_rightArrow.png) no-repeat;
+}
+
+/* 标题 */
+.sendList .member-title {
+	width: 460px;
+	height: 60px;
+	background-color: #0b2344;
+	color: #fff;
+	font-size: 24px;
+	line-height: 60px;
+	padding-left: 26px;
+}
+/* 搜索框 */
+.sendList .member-search {
+	width: 460px;
+	height: 60px;
+	background-color: #050e1c;
+	padding:9px 14px 0 26px;
+	box-sizing:border-box;
+}
+
+.sendList .member-search input {
+	width: 280px;
+	height: 42px;
+	color: #929498;
+	font-size: 20px;
+	float: left;
+	margin-left: 20px;
+}
+
+.sendList .member-search span {
+	width: 88px;
+	height: 42px;
+	line-height: 42px;
+	background-color: #1a4c95;
+	color: #fff;
+	font-size: 20px;
+	text-align: center;
+	float: right;
+	border-radius: 4px;
+}
+
+/* 导航条部分 */
+
+.sendList .member-nav {
+	width: 460px;
+	background-color: #050d19;
+}
+
+.sendList .member-nav .navTitle {
+	width: 460px;
+}
+
+.sendList .member-nav .nav:hover .navTitle {
+	background-color: #114591;
+}
+
+.sendList .member-nav .navTitle span {
+	float: left;
+	width: 300px;
+	height: 60px;
+	line-height: 60px;
+	padding-left: 26px;
+	font-size: 20px;
+	color: #fff;
+
+}
+
+/* 子导航条 */
+.sendList .member-nav .subnav li {
+	width: 398px;
+	/* height: 60px; */
+	line-height: 60px;
+	color: #fff;
+	font-size: 20px;
+	padding-left: 62px;
+	overflow: hidden; /*自动隐藏文字*/
+	text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+	white-space: nowrap;/*强制不换行*/
+	width: 20em;/*不允许出现半汉字截断*/
+}
+
+.sendList .member-nav .subnav li:hover {
+	background-color: #0a254e;
+	white-space:normal;
+	overflow:visible;
+}
+
+/* 参与成员结束 */
+
+/* 当前位置 */
+.sendList .content {
+	width: 1876px;
+	height: 1000px;
+	margin-left: 30px;
+	margin-top: 12px;
+}
+
+.sendList .content .navBar {
+	width: 1876px;
+	height: 50px;
+	padding-left: 22px;
+	clear: both;
+}
+
+.sendList .content .navBar span {
+	width: 106px;
+	height: 50px;
+	line-height: 50px;
+	color: #fff;
+	font-size: 24px;
+}
+
+.sendList .content .navBar span:last-child {
+	text-decoration:underline;
+}
+
+.sendList .content .navBar a {
+	width: 106px;
+	height: 50px;
+	color: #7fa6e1;
+	font-size: 24px;
+	text-decoration:underline;
+}
+
+.sendList .content .navBar i {
+	font-size: 24px;
+	color: #fff;
+}
+
+.sendList .content .conTxt {
+	width: 1876px;
+	height: 946px;
+}
+
+.sendList .content .conTxt-titleLeft {
+	width: 940px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 24px;
+	color: #fff;
+	padding-left: 22px;
+	background-color: #0b1f3c;
+	box-sizing:border-box;
+}
+
+.sendList .content .conTxt-titleRight {
+	width: 936px;
+	height: 60px;
+	text-align: right;
+	line-height: 60px;
+	font-size: 24px;
+	color: #fff;
+	padding-right: 22px;
+	background-color: #0b1f3c;
+	box-sizing:border-box;
+}
+
+
+
+/*滚动条 start*/
+	/* table表格 */
+	.sendList .table-list::-webkit-scrollbar {
+		width: 10px;  
+		height: 4px;  
+		background-color: #F5F5F5;  
+	}  
+	/*定义滚动条轨道 内阴影+圆角*/  
+	.sendList .table-list::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.28);  
+		background: #fff ;  
+	}  
+	/*定义滑块 内阴影+圆角*/  
+	.sendList .table-list::-webkit-scrollbar-thumb {
+		border-radius: 3px;  
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+		background-color:rgba(53, 58, 60, 1);  
+	}  
+	.sendList .table-list::-webkit-scrollbar-thumb:hover {
+		border-radius: 3px;  
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+		background-color:rgba(53, 58, 60, 1);  
+} 
+
+	/* 首页参与成员 */
+	.sendList .member-show::-webkit-scrollbar {
+		width: 10px;  
+		height: 4px;  
+		background-color: #F5F5F5;  
+	}  
+	/*定义滚动条轨道 内阴影+圆角*/  
+	.sendList .member-show::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.28);  
+		background: #fff ;  
+	}  
+	/*定义滑块 内阴影+圆角*/  
+	.sendList .member-show::-webkit-scrollbar-thumb {
+		border-radius: 3px;  
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+		background-color:rgba(53, 58, 60, 1);  
+	}  
+	.sendList .member-show::-webkit-scrollbar-thumb:hover {
+		border-radius: 3px;  
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+		background-color:rgba(53, 58, 60, 1);  
+}  
+
+
+/* 表格内容 */
+.sendList .content .table-list {
+	width: 1876px;
+	height: 820px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+.sendList .content .table-list .receive {
+	color: #e68025;92bdff
+}
+
+.sendList .content .table-list .affirm {
+	color: #92bdff;
+}
+
+.sendList .table-list .table>thead>tr>th {
+	height: 44px;
+	line-height: 44px;
+	text-align: left;
+	padding-left: 22px;
+	font-size: 22px;
+	color: #c1c1c1;
+	background-color: #050e1b;
+}
+
+.sendList .table-list .table>tbody>tr>td {
+	height: 44px;
+	line-height: 44px;
+	text-align: left;
+	padding-left: 22px;
+	font-size: 22px;
+	color: #fff;
+}
+
+.sendList .table-list .table>tbody>tr:nth-child(odd) {
+	background-color: #0b1e3b;
+}
+
+.sendList .table-list .table>tbody>tr:nth-child(even) {
+	background-color: #050e1b;
+}
+
+/* 表格内容结束 */
+
+/* .sendList .table-list .table>tbody a {
+	font-size: 22px;
+	color: #92bdff;
+	text-decoration:underline;
+}
+ */

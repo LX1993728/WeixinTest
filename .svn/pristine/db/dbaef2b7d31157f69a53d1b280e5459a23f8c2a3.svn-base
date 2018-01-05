@@ -1,0 +1,564 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" type="text/css" href="css/main.css"/>
+		<link rel="stylesheet" type="text/css" href="css/map/map.css">
+		
+		<link rel="stylesheet" type="text/css" href="css/clearUp.css"/>
+	</head>
+	<body>
+		<!--导航条-->
+		<nav>
+			<div class="messageLog">
+				<img src="img/u852.png"/><span>深圳应急指挥平台</span>
+			</div>
+			<ul class="navigation">
+				<li><p class='n_col'>事件态势</p></li>
+				<li>
+					<p class="aptitude">智能场景</p>
+					<ul class="SmartPlan">
+						<li><a href="空楼行动/空楼行动.html">空楼行动</a></li>
+						<li><a href="疏散计划/疏散计划.html">疏散规划</a></li>
+						<li><a href="人员救治/人员救治.html">人员救治</a></li>
+						<li><a href="衍生灾难推演/衍生灾难推演.html">衍生灾害推演</a></li>
+					</ul>
+					
+				</li>
+				<li><p><a href="sms/index.html" class="znya">智能预案</a></p></li>
+			</ul>
+			<div class="userLogin">
+				<div class="question"></div>
+				<div class="userJpg">
+				</div>
+				<div class="userName">Jay.Liu
+				</div>
+				<div class="onOff">
+				</div>
+			</div>
+		</nav>
+
+		
+		<!--主题内容-->
+		<div class="subject" id="container">
+			
+			<!--右边的侧边栏-->
+			<div class="r_sidebar">
+				<div class="r_sidebar_seek">
+					<div class="choose">
+						<div class="choose_l" id="choose_l">全部</div>
+						<div class="choose_r">
+							
+						</div>
+						<div class="choose_l_spread">
+							<div class="choose_l">
+								全部
+							</div>
+							<div class="choose_l">
+								物资
+							</div>
+							<div class="choose_l">
+								场所
+							</div>
+						</div>
+					</div>
+					
+					<div class="hunt">
+						<input type="text" name="" class="huntFrame" value=""  placeholder="请输入关键字搜索"/>
+						<div class="huntIcon">
+							
+						</div>
+						<!--右边展示的div-->
+						<div class="r_s_show">
+							<div>
+								<div class="r_s_show_header">
+									<p>场所</p>
+									<div>共计结果<span id="site">0</span>条</div>
+									<u><span>收起</span></u>
+								</div>
+								<ul class="presentationCache site curPlan">
+									<li class="presentationCacheClassify">
+										<div class="classify_l">
+										名称
+										</div>
+										<div class="classify_c">
+										所在地
+										</div>
+										
+									</li>
+								</ul>
+							</div>
+							<div>
+								<div class="r_s_show_header">
+									<p>物资</p>
+									<div>共计结果<span id="Commodity">0</span>条</div>
+									<u><span>收起</span></u>
+								</div>
+								<ul class="presentationCache Commodity curPlan">
+									<li class="presentationCacheClassify">
+										<div class="classify_l">
+										名称
+										</div>
+										<div class="classify_c">
+										储备库
+										</div>
+										<div class="classify_r">
+											数量
+										</div>
+									</li>
+									
+								</ul>
+							</div>
+							
+						</div>
+						
+					</div>
+					
+					
+				</div>
+			</div>
+			
+			
+			<!--左边的窗口-->
+			<div class="l_wicket">
+				<div>
+					<div>人员调度</div>
+					<div class="l_wicket_one"></div>
+				</div>
+				<div class="l_wicket_space">
+					<div>任务动态</div>
+					<div class="l_wicket_twe"></div>
+				</div>
+				<div>
+					<div>物资调配</div>
+					<div class="l_wicket_three"></div>
+				</div>
+			</div>
+			
+			<!--左边点击显示的窗口-->
+			
+			<div class="l_reveal">
+				<ul class="switchover">
+					<li class="backdrop">人员调度</li>
+					<li class="backdrop">任务动态</li>
+					<li class="backdrop">物资调配</li>
+				</ul>
+				<!--收起按钮-->
+				<div class="packUp">
+				</div>
+				<div class="details">
+					<!--人员调度-->
+					<div class="d_personnel entry" style="display: none;">
+						<!--搜索-->
+						<div class="staffSearch ">
+							<input type="" name="" id="" value="" placeholder="请输入搜索的队伍或人员" />
+							<div class="startSeek">
+								搜索
+							</div>
+						</div>
+						<!--搜索展示区-->
+						<div class="SearchShow curPlan">
+							<ul>
+								
+							</ul>
+						</div>
+						<!--下边框线-->
+						<div class="below"></div>
+						
+						<!--详细数据数目-->
+						<ul class="minute">
+							<li>
+								处置队伍 (支)
+								<p>46</p>
+							</li>
+							<li>
+								在线人数
+								<p>289</p>
+							</li>
+							<li>
+								参与队员(人)
+								<p>320</p>
+							</li>
+						</ul>
+						
+						<!--群组通讯-->
+						<div class="message">
+							<div id="groupCirle">图上圈组</div>
+							<div class='videoGroup'>音频组呼</div>
+							<div class='videoGroup'>视频组呼</div>
+						</div>
+					</div>
+					<!--任务动态-->
+					<div class="d_mission entry" style="display: none;">
+						<!--滚动外层盒子-->
+						<div class="rollBox entry curPlan">
+							<!--内部滚动内容-->
+							
+							<!-- <div class="trends">
+								<ul>
+									<li>
+										<div class="posture">
+											<div>态势回转: <span>信息材料组</span></div>
+											<div></div>
+											<div>08-21 17:46</div>
+										</div>
+										<div class="substance">
+											<div>现场车辆拥堵严重，已安排交警进行车辆疏导，建议交委通过广播、电视通告等方式进行交通管制，减轻现场交通压力。</div>
+											<div >
+												<img src="img/u2805.png" style="width: 100%;height: 100%;"/>
+											</div>
+										</div>
+									</li>
+								</ul>
+							</div> -->
+							
+						</div>
+						<!--滚动条底部边框-->
+						<div class="mission_border">
+							
+						</div>
+						
+						<!--滚动下方的数据-->
+							
+						<div class="newsNumber">
+							<div><p>下达指标(条)</p><span>51</span></div>
+							<div><p>回传态势(条)</p><span>147</span></div>
+						</div>
+						
+					</div>
+					
+					<!--物资调配-->
+					<div class="d_Supplies entry curPlan">
+						<!--开始滚动区域-->
+						<div class="d_S_roll">
+							<!--总数据详情-->
+							<div class="w_materials">
+								<div class="not">
+									<p>未处理</p>
+									<span>51</span>
+								</div>
+								<div class="proceed">
+									<p>调配中</p>
+									<span>147</span>
+								</div>
+								<div class="accomplish">
+									<p>已完成</p>
+									<span>51</span>
+								</div>
+							</div>
+							<!--调配管理-->
+							<div class="blend">
+								<p>调配管理</p>
+								<ul>
+									<li>申请对象</li>
+									<li>所需物资</li>
+									<li>物资数量</li>
+								</ul>
+							</div>
+							<!--物资展示列表详情-->
+							<ul class="listing">
+								<li>
+									<!--点击块-->
+									<div class="listing_details untreated">
+										<div>医疗救治组</div>
+										<div>担架</div>
+										<div>80</div>
+										<div class="w_png"></div>
+									</div>
+									<!--点击展示-->
+									<div class="exhibition">
+										<!--展示条-->
+										<div class="thirds">
+											<div>配送至:深圳主干街道车祸发生点</div>
+											<div>2017-10-20 12:23</div>
+										</div>
+										<!--展示块-->
+										<div>
+										物资来源：深圳市南三区红布路马家龙工业园15栋，深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋
+										</div>
+										<!--状态-->
+
+										<div class="StateNot">未处理</div>
+									</div>
+								</li>
+								<li>
+									<!--点击块-->
+									<div class="listing_details">
+										<div>工程抢险组</div>
+										<div>轻型防化服</div>
+										<div>8</div>
+										<div class="w_png"></div>
+									</div>
+									<!--点击展示-->
+									<div class="exhibition StateIn">
+										<!--展示条-->
+										<div class="thirds">
+											<div>配送至:深圳主干街道车祸发生点</div>
+											<div>2017-10-18 17:56 </div>
+										</div>
+										<!--展示块-->
+										<div>
+										物资来源：深圳市南三区红布路马家龙工业园15栋，深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋
+										</div>
+										<!--状态-->
+										<div>调配中</div>
+									</div>
+								</li>
+
+								<li>
+									<!--点击块-->
+									<div class="listing_details untreated">
+										<div>灾民安置组</div>
+										<div>泡面</div>
+										<div>40</div>
+										<div class="w_png"></div>
+									</div>
+									<!--点击展示-->
+									<div class="exhibition">
+										<!--展示条-->
+										<div class="thirds">
+											<div>配送至:深圳主干街道车祸发生点</div>
+											<div>2017-10-19 13:25</div>
+										</div>
+										<!--展示块-->
+										<div>
+										物资来源：深圳市南三区红布路马家龙工业园15栋，深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋
+										</div>
+										<!--状态-->
+										<div class="StateNot">未处理</div>
+									</div>
+								</li>
+								<li>
+									<!--点击块-->
+									<div class="listing_details untreated">
+										<div>灾民安置组</div>
+										<div>瓶装饮用水</div>
+										<div>80</div>
+										<div class="w_png"></div>
+									</div>
+									<!--点击展示-->
+									<div class="exhibition">
+										<!--展示条-->
+										<div class="thirds">
+											<div>配送至:深圳主干街道车祸发生点</div>
+											<div>2017-10-19 8:43</div>
+										</div>
+										<!--展示块-->
+										<div>
+										物资来源：深圳市南三区红布路马家龙工业园15栋，深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋
+										</div>
+										<!--状态-->
+										<div class="StateNot">未处理</div>
+									</div>
+								</li>
+								<li>
+									<!--点击块-->
+									<div class="listing_details untreated">
+										<div>治安交通组</div>
+										<div>隔离警示带</div>
+										<div>2</div>
+										<div class="w_png"></div>
+									</div>
+									<!--点击展示-->
+									<div class="exhibition">
+										<!--展示条-->
+										<div class="thirds">
+											<div>配送至:深圳主干街道车祸发生点</div>
+											<div>2017-10-20 7:48</div>
+										</div>
+										<!--展示块-->
+										<div>
+										物资来源：深圳市南三区红布路马家龙工业园15栋，深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋
+										</div>
+										<!--状态-->
+										<div class="StateNot">未处理</div>
+									</div>
+								</li>
+								<li>
+									<!--点击块-->
+									<div class="listing_details untreated">
+										<div>工程抢险组</div>
+										<div>吸附垫</div>
+										<div>60</div>
+										<div></div>
+									</div>
+									<!--点击展示-->
+									<div class="exhibition">
+										<!--展示条-->
+										<div class="thirds">
+											<div>配送至:深圳主干街道车祸发生点</div>
+											<div>2017-10-20 11:35</div>
+										</div>
+										<!--展示块-->
+										<div>
+										物资来源：深圳市南三区红布路马家龙工业园15栋，深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋
+										</div>
+										<!--状态-->
+										<div class="StateNot">未处理</div>
+									</div>
+								</li>
+								<li>
+									<!--点击块-->
+									<div class="listing_details fulfill allocateSupplies">
+										<div>医疗救护组</div>
+										<div>医用氧气瓶</div>
+										<div>4</div>
+										<div class="w_png"></div>
+									</div>
+									<!--点击展示-->
+									<div class="exhibition">
+										<!--展示条-->
+										<div class="thirds">
+											<div>配送至:深圳主干街道车祸发生点</div>
+											<div>2017-10-20 18:25</div>
+										</div>
+										<!--展示块-->
+										<div>
+										物资来源：深圳市南三区红布路马家龙工业园15栋，深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋深圳市南三区红布路马家龙工业园15栋
+										</div>
+										<!--状态-->
+										<div>已完成</div>
+									</div>
+								</li>
+							</ul>
+							
+						</div>
+						
+					</div>
+					
+								
+				</div>
+			</div>
+			
+			<!--右边的态势标绘-->
+			<div class="stamp">
+				态势标绘
+			</div>
+			
+			<!--底部选项卡-->
+			
+			<div class="baseOption">
+				<ul>
+					<li>
+						<p>危险源</p>
+						<div class="b_show wxy">
+							<p><img src="img/危险.jpg"/></p>
+							<ul>
+								<li style="background-image:url(img/危险源/web/自然.png) ;"><div>自然灾害</div><div><input type="checkbox" value='naturalDisaster'/></div></li>
+								<li style="background-image: url(img/危险源/web/事故.png);"><div>事故灾难</div><div><input type="checkbox" value="sgDisaster" /></div></li>
+								<li style="background-image: url(img/危险源/web/公共.png);"><div>公共卫生</div><div><input type="checkbox" value="ggws" /></div></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>防护目标</p>
+						<div class="b_show">
+							<p><img src="img/防护目标(1).jpg"/></p>
+							<ul>
+								<li style="background-image: url(img/防护目标/web/重点.png);"><div>重点防护</div><div><input type="checkbox"/></div></li>
+								<li style="background-image: url(img/防护目标/web/关键.png);"><div>关键设施</div><input type="checkbox"/></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>避难场所</p>
+						<div class="b_show">
+							<p><img src="img/避难场所.jpg"/></p>
+							<ul>
+								<li style="background-image: url(img/避难场所/web/室内.png);"><div>室内避难</div><input type="checkbox"/></li>
+								<li style="background-image: url(img/避难场所/web/室外.png);"><div>室外避难</div><input type="checkbox"/></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>救援力量</p>
+						<div class="b_show jyll">
+							<p><img src="img/救援力量查找.jpg"/></p>
+							<ul>
+								<li style="background-image: url(img/救援力量查找拷贝.png);"><div>公安</div><input type="checkbox" value='publicSecurity'/></li>
+								<li style="background-image: url(img/救援力量查找拷贝2.png);"><div>特警</div><input type="checkbox" value='specialPoliceman' /></li>
+								<li style="background-image: url(img/救援力量查找拷贝3.png);"><div>专业救援</div><input type="checkbox"/></li>
+								<li style="background-image: url(img/救援力量查找拷贝3.png);"><div>军队</div><input type="checkbox"/></li>
+								<li style="background-image: url(img/救援力量查找拷贝4.png);"><div>专家组</div><input type="checkbox"/></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>医疗卫生</p>
+						<div class="b_show">
+							<p><img src="img/医疗卫生.jpg"/></p>
+							<ul>
+								<li style="background-image: url(img/医疗/web/医疗.png);"><div>医疗结构</div><input type="checkbox"/></li>
+								<li style="background-image: url(img/医疗/web/机房.png);"><div>疫防中心</div><input type="checkbox"/></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>物资储备</p>
+						<div class="b_show">
+							<p><img src="img/物资储备.jpg"/></p>
+							<ul>
+								<li style="background-image: url(img/物资/web/1.png);"><div>物资仓储</div><input type="checkbox"/></li>
+								<li style="background-image: url(img/物资/web/2.png);"><div>物资企业</div><input type="checkbox"/></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>水电气管网</p>
+						<div class="b_show">
+							<p><img src="img/水电.jpg"/></p>
+							<ul>
+								<li style="background-image: url(img/水电/web/1.png);"><div>排水管道</div><input type="checkbox"/></li>
+								<li style="background-image: url(img/水电/web/2.png);"><div>输气管道</div><input type="checkbox"/></li>
+								<li style="background-image: url(img/水电/web/3.png);"><div>电力管线</div><input type="checkbox"/></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>交通消防</p>
+						<div class="b_show">
+							<p><img src="img/交通.jpg"/></p>
+							<ul>
+								<li style="background-image: url(img/交通/web/1.png);"><div>道路实况</div><input type="checkbox"/></li>
+								<li style="background-image: url(img/交通/web/2.png);"><div>消防驻点</div><input type="checkbox"/></li>
+							</ul>
+						</div>
+					</li>
+					<li>
+						<p>实时监控</p>
+						<div class="b_show">
+							<p><img src="img/监控.jpg"/></p>
+							<ul>
+								<li style="background-image: url(img/实时监控/web/1.png);"><div>视频监控</div><input type="checkbox"/></li>
+								<li style="background-image:url(img/实时监控/web/2.png) ;"><div>河道水位</div><input type="checkbox"/></li>
+								<li style="background-image:url(img/实时监控/web/3.png) ;"><div>气象站点</div><input type="checkbox"/></li>
+								<li style="background-image: url(img/实时监控/web/4.png);"><div>雨量监测</div><input type="checkbox"/></li>
+							</ul>
+						</div>
+					</li>
+					
+					<!--清除-->
+					<li class="eliminate">清除元素</li>
+				</ul>
+				<div class="clearUp">
+					
+				</div>
+			</div>
+			
+		</div>
+	</body>
+</html>
+<script type="text/javascript" src="js/jquery-3.2.1.min.js"></script>
+		
+<script type="text/javascript" src="http://webapi.amap.com/maps?v=1.4.2&key=0b85fc708f80bc949dc5f8afeda9a125"></script>
+<!-- UI组件库 1.0 -->
+<script src="http://webapi.amap.com/ui/1.0/main.js?v=1.0.11"></script>
+<script type="text/javascript" src="js/map/personnelDispatchData.js"></script>
+<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+<script type="text/javascript" src="js/map/personnelDispatch.js"></script>
+<script type="text/javascript" src="js/map/bottomMarkerUtil.js"></script>
+
+<!--清除按钮收起功能-->
+<script src="js/clearUp.js" type="text/javascript" charset="utf-8"></script>
+ 

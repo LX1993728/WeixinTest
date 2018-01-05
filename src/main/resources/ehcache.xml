@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ehcache xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:noNamespaceSchemaLocation="http://ehcache.org/ehcache.xsd">
+	<diskStore path="/Users/liuxun/Documents/weixin_ehcache" />
+	<defaultCache eternal="true" maxElementsInMemory="0"
+		overflowToDisk="true" diskPersistent="true" timeToIdleSeconds="0"
+		timeToLiveSeconds="0" memoryStoreEvictionPolicy="LRU" />
+
+
+	<cache name="content" overflowToDisk="true"
+		diskSpoolBufferSizeMB="500" maxElementsInMemory="1" diskPersistent="true"
+		eternal="true" timeToIdleSeconds="0" memoryStoreEvictionPolicy="FIFO">
+		<bootstrapCacheLoaderFactory
+			class="net.sf.ehcache.store.DiskStoreBootstrapCacheLoaderFactory"
+			properties="bootstrapAsynchronously=true" />
+	</cache>
+
+
+</ehcache>

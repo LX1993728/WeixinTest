@@ -1,0 +1,686 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>深圳市应急指挥平台</title>
+	<link rel="stylesheet" href="../css/sms/header.css">
+	<link rel="stylesheet" href="../css/sms/bootstrap.min14ed.css">
+	<link rel="stylesheet" href="../css/sms/paging.css">
+	<link rel="stylesheet" href="../css/sms/css_reset.css">
+	<link rel="stylesheet" href="../css/sms/sendList.css">
+</head>
+<body>
+	<div class="wrapper">
+		<!-- 头部 -->
+		<div class="header">
+			<nav>
+			<div class="messageLog">
+				<img src="../../img/u852.png"/><span>深圳应急指挥平台</span>
+			</div>
+			<ul class="navigation">
+				<li><p><a  href="../../static/index.html" style="font-size:26px; color:#FFFFFF">事件态势</a></p></li>
+				<li>
+					<p class="aptitude">智能场景</p>
+					<ul class="SmartPlan">
+						<li><a href="../空楼行动/空楼行动.html">空楼行动</a></li>
+						<li><a href="../疏散计划/疏散计划.html">疏散规划</a></li>
+						<li><a href="../人员救治/人员救治.html">人员救治</a></li>
+						<li><a href="../衍生灾难推演/衍生灾难推演.html">衍生灾害推演</a></li>
+					</ul>
+					
+				</li>
+				<li><p class="send_message">智能预案</p></li>
+			</ul>
+			<div class="userLogin">
+				<div class="question" style="background-image:url(../img/帮助.png);"></div>
+				<div class="userJpg" style="background-image: url(../img/用户拷贝.png);">
+				</div>
+				<div class="userName">Jay.Liu
+				</div>
+				<div class="onOff">
+				</div>
+			</div>
+		</nav>
+		</div>
+		<!-- 内容区域 -->
+		<div class="sendList page clearfix">
+			<!-- 预案列表 -->
+			<div class="member clearfix">
+				<!-- 解决滑出抖动bug -->
+				<div class="member-bug fl"></div>
+				<div class="member-show fl">
+					<div class="member-flag">
+						<div class="member-title">
+						预案列表
+						</div>
+						<div class="member-search">
+							<i class="search"></i>
+							<input type="text" placeholder="请输入关键字搜索">
+							<span>搜索</span>
+						</div>
+						<div class="member-nav">
+							<ul class="member-nav-Box">
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>自然灾害类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市自然灾害救助应急预案》</li>
+											<li>《深圳市防汛应急预案》</li>
+											<li>《深圳市防台风应急预案》</li>
+											<li>《深圳市气象灾害应急预案》</li>
+											<li>《深圳市地震应急预案》</li>
+											<li>《深圳市突发地质灾害应急预案》</li>
+											<li>《深圳市海洋灾害应急预案》</li>
+											<li>《深圳市处置森林火灾应急预案》</li>
+											<li>《深圳市台风暴雨等恶劣天气交通保障应急预案》</li>
+											<li>《深圳市大气污染应急预案》</li>
+											<li>《深圳港防热带气旋应急预案》</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>事故灾难类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市处置铁路行车事故应急预案》</li>
+											<li>《深圳市处置民用航空器飞行事故应急预案》</li>
+											<li>《深圳市城市轨道交通突发事件应急预案》</li>
+											<li>《深圳市处置道路交通（含桥梁、隧道）突发事件应急预案》</li>
+											<li>《深圳市海上突发事件应急处置预案》</li>
+											<li>《深圳市海域污染应急预案》</li>
+											<li>《深圳市处置电网大面积停电事件应急预案》</li>
+											<li>《深圳市通信保障突发事件应急预案》</li>
+											<li>《深圳市危险化学品事故应急救援预案》</li>
+											<li>《深圳市工矿商贸企业生产安全事故应急预案》</li>
+											<li>《深圳市燃气突发事故应急预案》</li>
+											<li>《深圳市建筑工程抢险应急预案》</li>
+											<li>《深圳市突发环境事件应急预案》</li>
+											<li>《深圳市突发辐射事故应急预案》</li>
+											<li>《深圳市水源和供水突发事件应急预案》</li>
+											<li>《深圳市城市排水突发事件应急预案》</li>
+											<li>《深圳市火灾事故应急预案》</li>
+											<li>《深圳市特种设备事故应急预案》</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>突发公共卫生事件类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市突发公共卫生事件应急预案》</li>
+											<li>《深圳市食品安全事故应急预案》</li>
+											<li>《深圳市药品安全突发事件应急预案》</li>
+											<li>《深圳市突发重大动物疫情应急预案》</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>社会安全事件类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市生活必需品市场供应突发事件应急预案》</li>
+											<li>《深圳市成品燃油市场供应应急预案》</li>
+											<li>《深圳市网络与信息安全突发事件应急预案》</li>
+											<li>《深圳市燃气供应保障应急预案》</li>
+											<li>《深圳市金融突发事件应急预案》</li>
+											<li>《深圳市涉外（港澳）突发事件应急预案》</li>
+											<li>《深圳市涉台突发事件应急预案》</li>
+											<li>《深圳市处置群体性事件和大规模暴力犯罪事件应急预案》</li>
+											<li>《深圳市处置重大刑事案件应急预案》</li>
+											<li>《深圳市处置恐怖袭击事件应急预案》</li>
+											<li>《深圳市处置劫机事件应急预案》</li>
+											<li>《深圳市处置民族宗教事件应急预案》</li>
+											<li>《深圳市突发事件新闻发布应急预案》</li>
+											<li>《深圳市旅游突发事件应急预案》</li>
+											<li>《深圳市校园安全稳定突发事件应急预案》</li>
+											<li>《深圳市陆路口岸通关突发事件应急预案》</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>应急保障类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市突发事件医疗卫生救援应急预案》</li>
+											<li>《深圳市卫生应急物质保障预案》	</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>事故灾难类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳港口危险货物事故应急预案》</li>
+											<li>《深圳市核电站核事故场外应急预案》</li>
+											<li>《深圳市海上危险化学品事故应急预案》</li>
+											<li>《深圳市地面塌陷事故应急预案》</li>
+											<li>《深圳市建筑废弃物受纳场突发事故应急预案》</li>
+											<li>《深圳市生产安全事故应急预案》</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="member-hidden fl">
+					<i class="rightArrow"></i>
+				</div>
+			</div>
+			<!-- 历史记录表格 -->
+			<div class="content">
+				<div class="navBar">
+					<span>当前位置：</span>
+					<a target="_self" href="./index.html">预案查看</a>
+					<i>-</i>
+					<a target="_self" href="./sendPlan.html">预案分发</a>
+					<i>-</i>
+					<span>发送详情</span>
+				</div>
+				<div class="conTxt clearfix">
+					<div class="conTxt-titleLeft fl">
+						<span>发送内容：</span>
+						<span>深圳市台风预案预置内容-预置内容-各成员单位职责</span>
+					</div>
+					<div class="conTxt-titleRight fl">
+						<span>操作人：</span>
+						<span>王大栓</span>
+						<span>2017-10-12</span>
+						<span>13:23:23</span>
+					</div>
+					<div class="table-list">
+						<table class="table">
+							<thead>
+								<tr>
+									<th class="col-md-3">接收单位</th>
+									<th class="col-md-1">接收人员</th>
+									<th class="col-md-7">接收内容</th>
+									<th class="col-md-2">状态</th>
+								</tr>
+							</thead>
+							<tbody id="tableList">
+								<!-- <tr>
+									<td class="col-md-3">福田区</td>
+									<td class="col-md-1">尹亦熙</td>
+									<td class="col-md-7">
+										在市三防指挥部统一指挥下，组织开展本行政区域台风防御和抢险救灾工作。
+									</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">罗湖区</td>
+									<td class="col-md-1">玫荫雪</td>
+									<td class="col-md-7">
+										在市三防指挥部统一指挥下，组织开展本行政区域台风防御和抢险救灾工作。
+									</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr> -->
+								<!-- <tr>
+									<td class="col-md-3">南山区</td>
+									<td class="col-md-1">东方诗琪</td>
+									<td class="col-md-7">
+										在市三防指挥部统一指挥下，组织开展本行政区域台风防御和抢险救灾工作。
+									</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">宝安区</td>
+									<td class="col-md-1">紫姗姗</td>
+									<td class="col-md-7">
+										在市三防指挥部统一指挥下，组织开展本行政区域台风防御和抢险救灾工作。
+									</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">坪山区</td>
+									<td class="col-md-1">沈玉盈</td>
+									<td class="col-md-7">
+										在市三防指挥部统一指挥下，组织开展本行政区域台风防御和抢险救灾工作。
+									</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">龙华区</td>
+									<td class="col-md-1">苏念尘</td>
+									<td class="col-md-7">
+										在市三防指挥部统一指挥下，组织开展本行政区域台风防御和抢险救灾工作。
+									</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">龙岗区</td>
+									<td class="col-md-1">林筱奕</td>
+									<td class="col-md-7">
+										在市三防指挥部统一指挥下，组织开展本行政区域台风防御和抢险救灾工作。
+									</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">盐田区</td>
+									<td class="col-md-1">慕雪归</td>
+									<td class="col-md-7">
+										在市三防指挥部统一指挥下，组织开展本行政区域台风防御和抢险救灾工作。
+									</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">光明新区</td>
+									<td class="col-md-1">刘欣妍</td>
+									<td class="col-md-7">
+										在市三防指挥部统一指挥下，组织开展本行政区域台风防御和抢险救灾工作。
+									</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">大鹏新区</td>
+									<td class="col-md-1">顾采薇</td>
+									<td class="col-md-7">
+										在市三防指挥部统一指挥下，组织开展本行政区域台风防御和抢险救灾工作。
+									</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">深圳警备区、深圳市公安边防支队</td>
+									<td class="col-md-1">楼若淳</td>
+									<td class="col-md-7">
+										负责组织协调驻深部队、武警和民兵预备役的抢险救灾工作，按照要求组织军队和武警部队及民兵预备役参加重大抢险救灾行动，协助地方人民政府转移群众。
+									</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市委宣传部</td>
+									<td class="col-md-1">方沐霖</td>
+									<td class="col-md-7">统筹指导重大险情灾情宣传报道。协调抢险救灾舆情引导应对工作。</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市发展改革委</td>
+									<td class="col-md-1">冷紫溪</td>
+									<td class="col-md-7">
+										负责防风防汛设施、重点工程除险加固计划和建设的协调安排、抢险救灾工程项目及特种装备立项。
+									</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市经贸信委</td>
+									<td class="col-md-1">萧冷玉</td>
+									<td class="col-md-7">
+										负责协调抢险救灾物资、器材及灾民生活必需品的调配，组织救灾物资与器材的供应。
+									</td>
+									<td class="col-md-2">
+										<span class="receive">已接收</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市财政委</td>
+									<td class="col-md-1">林宛白</td>
+									<td class="col-md-7">
+										负责筹措抢险救灾及善后恢复所必需的费用。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市规划国土委（市海洋局）</td>
+									<td class="col-md-1">楚善文</td>
+									<td class="col-md-7">
+										负责全市地质灾害的监测与隐患排查，负责海浪、风暴潮等海洋灾害的预报、监测与预警，及时向市三防指挥部提供海洋预报等相关信息。协助各区政府（新区管委会）或市有关部门开展危险区域人员的转移安置工作。督促渔船避风。负责指导渔业防风措施的落实，及时指导渔业抢险救灾、生产自救、和灾后复产
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市人居环境委</td>
+									<td class="col-md-1">夏尔若</td>
+									<td class="col-md-7">
+										负责台风灾害影响区域的环境监测、处置环境突发事件。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市交通运输委</td>
+									<td class="col-md-1">叶清逸</td>
+									<td class="col-md-7">
+										组织指导协调有关单位和部门做好公路、水运交通设施和机场、港口的防台风安全工作；负责公路、桥梁等在建工程的防台风工作；制定实施抢险救灾交通保障预案，及时抢修损毁的道路、桥梁；组织协调各种交通运力，做好防风抢险物资和人员输送工作。负责道路交通设施防风工作，及时修复、加固或拆除存在安全隐患或已损坏的设施。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市卫生和计生委</td>
+									<td class="col-md-1">张芷嫣</td>
+									<td class="col-md-7">
+										负责灾区疾病预防控制和医疗救护工作，组织卫生部门和医疗卫生队伍赶赴灾区，开展治病防病，预防和控制疫病的发生和流行。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市教育局</td>
+									<td class="col-md-1">慕无霜</td>
+									<td class="col-md-7">
+										负责教育机构的防台风工作，督促协调做好教学场所防风准备、在校师生教职员工的安全保护，灾后修复或重建。对师生教职员工进行防灾减灾知识宣传教育。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市公安局</td>
+									<td class="col-md-1">杜墨言</td>
+									<td class="col-md-7">
+										负责维护社会治安、指挥灾民疏散、撤退和陆地突击救生。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市民政局</td>
+									<td class="col-md-1">萧苏溢</td>
+									<td class="col-md-7">
+										负责避险中心开放管理，及时开放避险中心。负责灾民的安置及救灾生活品的调集管理和发放，核定和报告灾情。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市文体旅游局</td>
+									<td class="col-md-1">季涵诺</td>
+									<td class="col-md-7">
+										负责组织协调有关单位和部门做好旅游景区的防台风工作；督促景区暂停营业或关闭，组织救护和转移滞留景区内的游客和工作人员。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市住房建设局</td>
+									<td class="col-md-1">白慕雅</td>
+									<td class="col-md-7">
+										负责组织指导在建市政设施和民用设施的防台风工作。督促指导编制建筑物（构筑物）防风预案，负责对在建市政设施防风措施进行检查，做好建筑施工场地防护和防洪排涝工作，拆除危险悬挂物，组织危房简易建筑临时加固、做好人员安全转移。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市水务局</td>
+									<td class="col-md-1">兰婧雪</td>
+									<td class="col-md-7">
+										负责水文观测和预警预报，水务工程调度运行及抢险抢修，组织清疏河道、抽排积水。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市城管局</td>
+									<td class="col-md-1">赵玟曼</td>
+									<td class="col-md-7">
+										负责市政设施场所抢险、抢修，负责或责令有关单位在危险地带或危险建筑物附近组织警戒，疏散、转移该危险地区的人员、财产。负责市政绿化树木防风加固、修剪，及时清运地面垃圾。负责户外广告设施防风隐患排查、加固或拆除。协助检查清理市政排水管网进水口，防止堵塞。。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市气象局</td>
+									<td class="col-md-1">莫筱竹</td>
+									<td class="col-md-7">
+										负责热带气旋监测预报，发布台风暴雨预警信号，及时向市三防指挥部报告热带气旋及相关灾害性天气的监测预报数据资料。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市应急办</td>
+									<td class="col-md-1">欧阳雪薇</td>
+									<td class="col-md-7">
+										负责协调处置台风影响期间发生的突发事件。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市建筑工务署</td>
+									<td class="col-md-1">柳溢雅</td>
+									<td class="col-md-7">
+										负责所管辖的在建工程的防风准备、抢险救灾和抢修。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市轨道办</td>
+									<td class="col-md-1">黎兮渃</td>
+									<td class="col-md-7">
+										负责在建轨道交通工程防洪防风、负责督促做好轨道交通人员疏散、地铁场站防洪排涝。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">深圳海事局</td>
+									<td class="col-md-1">文斯吟</td>
+									<td class="col-md-7">
+										督促做好船舶避风、海上作业人员上岸等防台风准备工作。负责海上险情处置。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市地铁集团公司</td>
+									<td class="col-md-1">白转千</td>
+									<td class="col-md-7">
+										做好在建地铁工地、运营线路及上盖物业的防洪防风工作。及时在地铁媒体上发布三防信息，组织开展场站和交通工具人员保护、疏散，组织抢险救灾。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">深圳供电局有限公司</td>
+									<td class="col-md-1">秦以寒</td>
+									<td class="col-md-7">
+										负责电力系统防台风工作,采取加固保护措施,防范电力系统受损,组织受损设施线路抢修,实施供电调度，保障抢险救灾现场用电以及各级三防指挥机构用电,保障灾区电力供应。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+								<tr>
+									<td class="col-md-3">市无线电管理局、中国电信深圳分公司、中国移动深圳分公司</td>
+									<td class="col-md-1">顾菲柔</td>
+									<td class="col-md-7">
+										负责组织指导协调通信设施的防台风工作，保障三防指挥机构及抢险救灾现场通信通畅，抢修受损通讯设施。根据抢险救灾需要，协调调度应急通信设施。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+									<tr>
+									<td class="col-md-3">市水务集团</td>
+									<td class="col-md-1">梁枫玥</td>
+									<td class="col-md-7">
+										负责排水系统清疏通，及时抢修受损管线设施，做好供水、排水系统防台风工作。根据抢险救灾需要，协调调度应急供排水设施。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td>
+								</tr>
+									<tr>
+									<td class="col-md-3">粤港供水有限公司</td>
+									<td class="col-md-1">温斯柳</td>
+									<td class="col-md-7">
+										负责做好深圳水库的防风和抢险工作；负责组织供港输水工程抢险救灾。
+									</td>
+									<td class="col-md-2">
+										<span class="affirm">已确认</span>
+									</td> -->
+							</tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 引入bootstrap插件 -->
+	<script src="../js/sms/jquery.min.js"></script>
+	<script src="../js/sms/bootstrap.min.js"></script>
+	<!-- 引入功能脚本 -->
+	<!-- <script src="./js/sendList.js"></script> -->
+	<!-- js功能区 -->
+	<script>
+		$(function(){
+			// 接收跳转前页面发来的数据
+			var uid = window.sessionStorage["uid"];
+			var flag = window.sessionStorage["flag"];
+			if(flag){
+			   queryListByUid(uid);
+			}else{
+				queryReply();
+			}
+			function queryListByUid(uid){
+				$.ajax({
+	 				url: '/sms/queryListByUid',
+	 				type: "post",
+	 				dataType: 'JSON',
+	 				data:{
+						uid:uid
+					},
+	 			 	success:function(data){
+	 			 	     console.info(data)
+	 			 	     $("#tableList").empty();
+	 			 	     var str = "";
+	 			 	     $.each(data,function(i,v){
+	 			 		   		str +=  '<tr>'+
+										'<td class="col-md-3">'+v.toCompany+'</td>'+
+										'<td class="col-md-1">'+v.toPerson+'</td>'+
+										'<td class="col-md-7">'+v.content+'</td>'+
+										'<td class="col-md-2">'+
+											'<span class="affirm">'+v.status+'</span>'+
+										'</td>'+
+									'</tr>'
+		 			 		   
+	 			 		  })
+	 			 		  $("#tableList").append(str);
+	 			 	     
+	 			 	}   
+		 	   })
+			
+			}
+			function queryReply(){
+				setInterval(function(){
+				$.ajax({
+	 				url: '/sms/reply',
+	 				type: "post",
+	 				dataType: 'JSON',
+	 				data:{
+						uid:uid
+					},
+	 			 	success:function(data){
+	 			 	     console.info(data)
+	 			 	     $("#tableList").empty();
+	 			 	     var str = "";
+	 			 	     $.each(data,function(i,v){
+	 			 		   		str +=  '<tr>'+
+										'<td class="col-md-3">'+v.toCompany+'</td>'+
+										'<td class="col-md-1">'+v.toPerson+'</td>'+
+										'<td class="col-md-7">'+v.content+'</td>'+
+										'<td class="col-md-2">'+
+											'<span class="affirm">'+v.status+'</span>'+
+										'</td>'+
+									'</tr>'
+		 			 		   
+	 			 		  })
+	 			 		  $("#tableList").append(str);
+	 			 	     
+	 			 	}   
+		 	   })
+			},5000)
+			}
+			// 当前位置的菜单之间相互切换
+			$(".navTitle").click(function(){
+				// 切换子菜单的显示隐藏
+				$(this).next().toggle("slow");
+				// 切换箭头图标
+				$(this).children('i').toggle();
+			})
+
+			
+			// 参与成员的显示隐藏
+			$(".member").hover(function() {
+				$(".member").stop(true,false).animate({left: "16px"});
+				$(".member-hidden").stop(true,false).hide(600);
+			}, function() {
+				$(".member").stop(true,false).animate({left: "-460px"},500);
+				$(".member-hidden").stop(true,false).show(600);
+			});
+		})
+	</script>
+</body>
+</html>
+<script src="../js/sms/header.js" type="text/javascript" charset="utf-8"></script>

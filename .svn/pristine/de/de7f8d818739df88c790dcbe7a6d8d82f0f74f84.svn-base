@@ -1,0 +1,188 @@
+
+
+
+
+/* 评估内容部分 */
+
+.summary-box {
+	width: 1850px;
+	height:540px;
+	box-sizing:border-box;
+}
+
+.summary-box .sumBottom-nav .on span {
+	color: #92bdff;
+}
+
+.summary-box .sumBottom-nav{
+	width: 1850px;
+	height:540px;
+}
+
+/* 菜单下拉列表 */
+.summary-box .sumBottom-nav .sunBotNav-menu {
+	width: 720px;
+	height:600px;
+	box-sizing:border-box;
+	padding-left: 30px;
+	border-right:1px solid #103366;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menu-box	{
+	width: 690px;
+	height: 540px;
+	overflow-x: hidden;
+	overflow-y: auto;
+}
+
+/*滚动条 start*/
+	/* 首页预案 */
+	.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menu-box::-webkit-scrollbar {
+		width: 10px;  
+		height: 4px;  
+		background-color: #F5F5F5;  
+	}  
+	/*定义滚动条轨道 内阴影+圆角*/  
+	.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menu-box::-webkit-scrollbar-track {
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.28);  
+		background: #fff ;  
+	}  
+	/*定义滑块 内阴影+圆角*/  
+	.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menu-box::-webkit-scrollbar-thumb {
+		border-radius: 3px;  
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+		background-color:rgba(53, 58, 60, 1);  
+	}  
+	.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menu-box::-webkit-scrollbar-thumb:hover {
+		border-radius: 3px;  
+		-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+		background-color:rgba(53, 58, 60, 1);  
+}  
+
+/* 下拉图标 */
+.summary-box  .icon_pullDown {
+	width: 16px;
+	height: 14px;
+	display: block;
+	background: url(../img/icon_pullDown.png) no-repeat;
+	margin-top: 23px;
+	margin-left: 16px;
+}
+
+/* 右拉图标 */
+.summary-box  .icon_pullRight {
+	width: 16px;
+	height: 14px;
+	display: block;
+	background: url(../img/icon_pullRight.png) no-repeat;
+	margin-top: 23px;
+	margin-left: 16px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menu-box {
+	width: 660px;
+	height: 540px;
+	box-sizing:border-box;
+	color: #fff;
+	font-size: 24px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList {
+	width: 660px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList1 {
+	width: 660px;
+	height: 60px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList1 span:first-child {
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList1 span:last-child {
+	width: 200px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList2 {
+	width: 600px;
+	margin-left: 60px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList2-nav {
+	width: 600px;
+	height: 60px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList2-nav span:first-child {
+	width: 150px;
+	left: 60px;
+	line-height: 60px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList2-nav span:last-child {
+	width: 200px;
+	left: 60px;
+	line-height: 60px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList3 {
+	width: 540px;
+	margin-left: 60px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList3-nav {
+	width: 540px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList3-nav li:hover {
+	cursor: pointer;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList3-nav li {
+	width: 540px;
+	height: 60px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList3-nav li span:first-child {
+	width: 150px;
+	height: 60px;
+	line-height: 60px;
+}
+
+.summary-box .sumBottom-nav .sunBotNav-menu .sunBotNav-menuList3-nav li span:last-child {
+	width: 200px;
+	height: 60px;
+	line-height: 60px;
+}
+
+
+
+
+
+/* 菜单下拉列表结束 */
+
+
+/* 评估内容 */
+
+.summary-box .sunBotNav-conter {
+	width: 1110px;
+	height:600px;
+	box-sizing:border-box;
+	padding-left: 38px;
+	padding-top: 16px;
+}
+
+.summary-box .sunBotNav-conter p {
+	font-size: 24px;
+	color: #fff;
+	margin-bottom: 16px;
+	line-height: 1.5;
+}
+
+/* 评估内容结束 */
+

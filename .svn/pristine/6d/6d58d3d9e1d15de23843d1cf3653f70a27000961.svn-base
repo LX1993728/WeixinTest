@@ -1,0 +1,333 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>深圳市应急指挥平台</title>
+	<link rel="stylesheet" href="../css/sms/bootstrap.min14ed.css">
+	<link rel="stylesheet" href="../css/sms/paging.css">
+	<link rel="stylesheet" href="../css/sms/css_reset.css">
+	<link rel="stylesheet" href="../css/sms/history.css">
+	<link rel="stylesheet" href="../css/sms/header.css">
+</head>
+<body>
+	<div class="wrapper">
+		<!-- 头部 -->
+		<div class="header">
+			<nav>
+			<div class="messageLog">
+				<img src="../../img/u852.png"/><span>深圳应急指挥平台</span>
+			</div>
+			<ul class="navigation">
+				<li><p><a  href="../../static/index.html" style="font-size:26px; color:#FFFFFF">事件态势</a></p></li>
+				<li>
+					<p class="aptitude">智能场景</p>
+					<ul class="SmartPlan">
+						<li><a href="../空楼行动/空楼行动.html">空楼行动</a></li>
+						<li><a href="../疏散计划/疏散计划.html">疏散规划</a></li>
+						<li><a href="../人员救治/人员救治.html">人员救治</a></li>
+						<li><a href="../衍生灾难推演/衍生灾难推演.html">衍生灾害推演</a></li>
+					</ul>
+					
+				</li>
+				<li><p class="send_message">智能预案</p></li>
+			</ul>
+			<div class="userLogin">
+				<div class="question" style="background-image:url(../img/帮助.png);"></div>
+				<div class="userJpg" style="background-image: url(../img/用户拷贝.png);">
+				</div>
+				<div class="userName">Jay.Liu
+				</div>
+				<div class="onOff">
+				</div>
+			</div>
+		</nav>
+		</div>
+		<!-- 内容区域 -->
+		<div class="history page clearfix">
+			<!-- 预案列表 -->
+			<div class="member clearfix">
+				<!-- 解决滑出抖动bug -->
+				<div class="member-bug fl"></div>
+				<div class="member-show fl">
+					<div class="member-flag">
+						<div class="member-title">
+						预案列表
+						</div>
+						<div class="member-search">
+							<i class="search"></i>
+							<input type="text" placeholder="请输入关键字搜索">
+							<span>搜索</span>
+						</div>
+						<div class="member-nav">
+							<ul class="member-nav-Box">
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>自然灾害类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市自然灾害救助应急预案》</li>
+											<li>《深圳市防汛应急预案》</li>
+											<li>《深圳市防台风应急预案》</li>
+											<li>《深圳市气象灾害应急预案》</li>
+											<li>《深圳市地震应急预案》</li>
+											<li>《深圳市突发地质灾害应急预案》</li>
+											<li>《深圳市海洋灾害应急预案》</li>
+											<li>《深圳市处置森林火灾应急预案》</li>
+											<li>《深圳市台风暴雨等恶劣天气交通保障应急预案》</li>
+											<li>《深圳市大气污染应急预案》</li>
+											<li>《深圳港防热带气旋应急预案》</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>事故灾难类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市处置铁路行车事故应急预案》</li>
+											<li>《深圳市处置民用航空器飞行事故应急预案》</li>
+											<li>《深圳市城市轨道交通突发事件应急预案》</li>
+											<li>《深圳市处置道路交通（含桥梁、隧道）突发事件应急预案》</li>
+											<li>《深圳市海上突发事件应急处置预案》</li>
+											<li>《深圳市海域污染应急预案》</li>
+											<li>《深圳市处置电网大面积停电事件应急预案》</li>
+											<li>《深圳市通信保障突发事件应急预案》</li>
+											<li>《深圳市危险化学品事故应急救援预案》</li>
+											<li>《深圳市工矿商贸企业生产安全事故应急预案》</li>
+											<li>《深圳市燃气突发事故应急预案》</li>
+											<li>《深圳市建筑工程抢险应急预案》</li>
+											<li>《深圳市突发环境事件应急预案》</li>
+											<li>《深圳市突发辐射事故应急预案》</li>
+											<li>《深圳市水源和供水突发事件应急预案》</li>
+											<li>《深圳市城市排水突发事件应急预案》</li>
+											<li>《深圳市火灾事故应急预案》</li>
+											<li>《深圳市特种设备事故应急预案》</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>突发公共卫生事件类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市突发公共卫生事件应急预案》</li>
+											<li>《深圳市食品安全事故应急预案》</li>
+											<li>《深圳市药品安全突发事件应急预案》</li>
+											<li>《深圳市突发重大动物疫情应急预案》</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>社会安全事件类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市生活必需品市场供应突发事件应急预案》</li>
+											<li>《深圳市成品燃油市场供应应急预案》</li>
+											<li>《深圳市网络与信息安全突发事件应急预案》</li>
+											<li>《深圳市燃气供应保障应急预案》</li>
+											<li>《深圳市金融突发事件应急预案》</li>
+											<li>《深圳市涉外（港澳）突发事件应急预案》</li>
+											<li>《深圳市涉台突发事件应急预案》</li>
+											<li>《深圳市处置群体性事件和大规模暴力犯罪事件应急预案》</li>
+											<li>《深圳市处置重大刑事案件应急预案》</li>
+											<li>《深圳市处置恐怖袭击事件应急预案》</li>
+											<li>《深圳市处置劫机事件应急预案》</li>
+											<li>《深圳市处置民族宗教事件应急预案》</li>
+											<li>《深圳市突发事件新闻发布应急预案》</li>
+											<li>《深圳市旅游突发事件应急预案》</li>
+											<li>《深圳市校园安全稳定突发事件应急预案》</li>
+											<li>《深圳市陆路口岸通关突发事件应急预案》</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>应急保障类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳市突发事件医疗卫生救援应急预案》</li>
+											<li>《深圳市卫生应急物质保障预案》	</li>
+										</ul>
+									</div>
+								</li>
+								<li class="nav">
+									<div class="navTitle clearfix">
+										<span>事故灾难类</span>
+										<i class="pulldown" style="display:none"></i>
+										<i class="pullright"></i>
+									</div>
+									<div class="subnav" style="display:none">
+										<ul>
+											<li>《深圳港口危险货物事故应急预案》</li>
+											<li>《深圳市核电站核事故场外应急预案》</li>
+											<li>《深圳市海上危险化学品事故应急预案》</li>
+											<li>《深圳市地面塌陷事故应急预案》</li>
+											<li>《深圳市建筑废弃物受纳场突发事故应急预案》</li>
+											<li>《深圳市生产安全事故应急预案》</li>
+										</ul>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="member-hidden fl">
+					<i class="rightArrow"></i>
+				</div>
+			</div>
+			<!-- 历史记录表格 -->
+			<div class="content">
+				<div class="navBar">
+					<span>当前位置：</span>
+					<a target="_self" href="./index.html">预案查看</a>
+					<i>-</i>
+					<a target="_self" href="./sendPlan.html">预案分发</a>
+					<i>-</i>
+					<span>历史记录</span>
+				</div>
+				<div class="conTxt">
+					<div>预案发送历史</div>
+					<div class="table-list">
+						<div class="title">
+							<ul class="clearfix">
+								<li>发送时间</li>
+								<li>接收单位</li>
+								<!-- <li>接收人员</li> -->
+								<li>发送内容</li>
+								<li>操作人</li>
+							</ul>
+						</div>
+						<div class="conter">
+							<ul class="conter-scroll" id="conter-scroll">
+								<li class="conter-list">
+									<span>2017-09-12 12:32</span>
+									<span>龙岗区XXX公司龙岗区XXX公司龙岗区XXX公司龙岗区XXX公司龙岗区XXX公司龙岗区XXX公司</span>
+									<span>周是哪</span>
+									<span>深圳防台风预案-预置内容-各成员单位职责</span>
+									<span>聂陶文</span>
+									<span>
+										<a href="javascript:;">查看详情</a>
+									</span>
+								</li>
+								<li class="conter-list">
+									<span>2017-09-12 12:32</span>
+									<span>龙岗区XXX公司</span>
+									<span>周是哪</span>
+									<span>深圳防台风预案-预置内容-各成员单位职责</span>
+									<span>聂陶文</span>
+									<span>
+										<a href="javascript:;">查看详情</a>
+									</span>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="visible">
+					<div class="pageToolbar" id="pageToolbar"></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- 引入bootstrap插件 -->
+	<script src="../js/sms/jquery.min.js"></script>
+	<script src="../js/sms/bootstrap.min.js"></script>
+	<!-- 页面分页插件 -->
+	<script src="../js/sms/query.js"></script>
+	<script src="../js/sms/paging.js"></script>
+	<!-- 引入功能脚本 -->
+	<!-- <script src="./js/history.js"></script> -->
+	<!-- js功能区 -->
+	<script>
+		$(function(){
+
+			// 请求后台拿到历史记录数据
+			$.ajax({
+	 				url: '/sms/queryList',
+	 				type: "post",
+	 				dataType: 'JSON',
+	 				success:function(data){
+	 				    var $content = $("#conter-scroll");
+	 			 	    $content.empty();
+	 				    console.log(data);
+	 			 		if(data){
+	 			 		   var set = new Set();
+	 			 		   $.each(data,function(i,value){
+	 			 		   console.log(value)
+	 			 		       $.each(value,function(i,v){
+		 			 		   var $html = $('<li class="conter-list">'+
+												'<span>'+v.date+'</span>'+
+												'<span>'+v.allCompany+'</span>'+
+												//'<span>'+value.toPerson+'</span>'+
+												'<span>'+v.leftContent+'</span>'+
+												'<span>聂陶文</span>'+
+												'<span>'+
+													'<a href="javascript:;" data='+v.uid+' class="detail">查看详情</a>'+
+												'</span>'+
+												'</li>').appendTo($("#conter-scroll"));
+							  })
+		 			 	   })
+		 			 	   $(".detail").click(function(){
+		 			 	   		window.sessionStorage['uid'] = $(this).attr("data");
+		 			 	   		window.sessionStorage["flag"] = "history";
+		 			 	   		window.location="sendList.html";
+		 			 	   })
+	 			 		   lookListData($(".content .conTxt .conter-list a"),$(this).parent().siblings('span'));
+				        }
+	 				}
+		 	   })
+
+			// 分页功能
+			$('#pageToolbar').Paging({pagesize:2,count:50,toolbar:true});
+
+			// 当前位置的菜单之间相互切换
+			$(".navTitle").click(function(){
+				// 切换子菜单的显示隐藏
+				$(this).next().toggle("slow");
+				// 切换箭头图标
+				$(this).children('i').toggle();
+			})
+
+			
+			// 参与成员的显示隐藏
+			$(".member").hover(function() {
+				$(".member").stop(true,false).animate({left: "16px"});
+				$(".member-hidden").stop(true,false).hide(600);
+			}, function() {
+				$(".member").stop(true,false).animate({left: "-460px"},500);
+				$(".member-hidden").stop(true,false).show(600);
+			});
+			// 点击查看详情，切换详细信息显示状态
+			function lookListData(objBtn,objList){
+				objBtn.click(function(){
+					objList.toggleClass('on');
+				})
+			}
+
+			/*if (window.sessionStorage["data"]) {
+				// 接收跳转前页面发来的数据
+				var data = JSON.parse(window.sessionStorage["data"]);
+				console.log(data);
+			};*/
+})
+	</script>
+</body>
+</html>
+
+<script src="../js/sms/header.js" type="text/javascript" charset="utf-8"></script>

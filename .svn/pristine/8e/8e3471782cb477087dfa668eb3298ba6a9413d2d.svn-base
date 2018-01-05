@@ -1,0 +1,357 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<title>Document</title>
+	<link rel="stylesheet" href="../css/reset.css" />
+	<style>
+
+/*滚动条*/
+.assessBox::-webkit-scrollbar {
+	width: 10px;  
+	height: 0px;  
+	background-color: #F5F5F5;  
+	}  
+/*定义滚动条轨道 内阴影+圆角*/  
+.assessBox::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.28);  
+	background: #6f747c ;  
+}  
+/*定义滑块 内阴影+圆角*/  
+.assessBox::-webkit-scrollbar-thumb {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	background-color:rgba(53, 58, 60, 1);  
+	}  
+.assessBox::-webkit-scrollbar-thumb:hover {
+	border-radius: 3px;  
+	-webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);  
+	backgro
+}
+.assess{
+	position: relative;
+	margin:auto;
+	/* margin-top:20px; */
+	width:1870px;
+	height:678px;
+}
+.assess-left{
+	float: left;
+	width:1366px;
+	height:678px;
+	border:1px solid #146062;
+	border-radius: 5px;
+	background: rgba(6,13,24,0.7);
+}
+.assess-lefttitle{
+	width:1346px;
+	padding-left:20px;
+	height:61px;
+	line-height: 61px;
+	font-size: 27px;
+	letter-spacing: -1px;
+	color: #ebf7ff;
+	background: rgba(21,90,191,0.25);
+}
+.assessBox{
+	width:1366px;
+	height:480px;
+	overflow: auto;
+}
+
+.assess-ablity{
+	position: relative;
+	padding:5px 0px 0 20px;
+	width:1335px;
+	height:152px;
+	border-bottom:1px solid #154285;
+}
+.assess-ablityleft{
+	float:left;
+	width:540px;
+	height:152px;
+}
+.assess-name{
+	margin-top:15px;
+	line-height: 30px;
+	font-size: 24px;
+	color: #ebf7ff;
+}
+.assess-ablitychose{
+	width: 540px;
+	height: 64px;
+	border:0;
+	outline: none;
+	background-color:#13253f;
+	border-radius: 3px;
+	margin-top:10px;
+	font-size:25px;
+	color:#fff;
+	text-indent:15px;
+}
+.assess-ablityright{
+	float:right;
+	width:730px;
+	height:152px;
+}
+.assess-img{
+	margin-top:10px;
+	width:730px;
+	height:72px;
+}
+.file_input{
+	display:none;
+	width:72px;
+	height:72px;
+	overflow:hidden;
+}
+.assess-result{
+	position:absolute;
+	margin-top:-72px;
+	width:72px;
+	height:72px;
+	background: url(../img1/sence2.png)no-repeat;
+}
+.assess-result>img{
+	width:72px;
+	height:72px;
+}
+.assess-imgclose{
+	position: absolute;
+	margin-top: -85px;
+	margin-left:52px;
+}
+.assess-imginfo{
+	margin-top:-96px;
+	margin-left: 78px;
+	font-size: 25px;
+	color:#89b1ef;
+	float: left;
+	border:0;
+	outline: none;
+	height:72px;
+	background: transparent;
+	text-decoration:underline
+
+}
+.assess-imgdel{
+    position:absolute;
+    right:20px;
+    margin-top:10px;
+	text-decoration: underline;
+	font-size: 20px;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #d2d2d2;
+	cursor: pointer;
+}
+.assess-summery{
+	position: relative;
+	padding:26px 0px 20px 20px;
+	width:1335px;
+	height:274px;
+	border-bottom:1px solid #154285;
+}
+.assess-summerytitle{
+	position:relative;
+	display:inline-block;
+	width:150px;
+	height:64px;
+    font-size: 24px;
+	letter-spacing: -1px;
+	color: #ebf7ff;
+}
+.assess-summery>textarea{
+	border:0;
+	outline: none;
+	width:1160px;
+	height:175px;
+	background: rgba(21,90,191,0.25);
+	float: right;
+	font-size: 24px;
+	color: #fff;
+	text-indent:15px;
+}
+.assess-summerysave{
+	position:absolute;
+    right:20px;
+    top:225px;
+	display: block;
+	width:155px;
+	height:56px;
+	text-align: center;
+	line-height:56px;
+	font-size:24px;
+	color: #ebf7ff;
+	border-radius: 5px;
+	background: #1f90e6;
+	cursor:pointer;
+}
+.assess-newbuild{
+	padding-top:40px;
+	padding-left:32px;
+	text-decoration: underline;
+	font-size: 26px;
+	line-height: 24px;
+	letter-spacing: 0px;
+	color: #89b1ef;
+	cursor:pointer;
+}
+.assess-right{
+	float: right;
+	width:485px;
+	height:678px;
+	border:1px solid #146062;
+	border-radius:5px;
+}
+.assess-template{
+	width:470px;
+	height:61px;
+	line-height: 61px;
+	padding-left:20px;
+	font-size: 27px;
+	color: #ebf7ff;
+	background: rgba(21,90,191,0.25);
+}
+.assess-templatecon{
+	width:462px;
+	height:597px;
+	padding:20px 10px 0 14px;
+	background: rgba(6,13,24,0.7)
+}
+.assess-templatecon>span{
+	margin-right:9px;
+	margin-bottom:12px;
+	font-size: 24px;
+	color:#fff;
+	text-align: center;
+	line-height: 50px;
+	display: block;
+	float:left;
+	width: 220px;
+	height: 50px;
+	background-color: #237bfd;
+	border-radius: 3px;
+	border: solid 1px #777c83;
+	background: rgba(21,90,191,0.45);	
+}
+
+
+.pop-up3{
+	width:574px;
+	height:331px;
+	border-radius: 5px;
+	background-color:rgba(23,48,68,0.9);
+	position:fixed;
+	left:50%;
+	margin-left:-287px;
+	top:200px;
+	left:900px;
+	z-index: 999;
+}
+.poptitle{
+	display:inline-block;
+	width:574px;
+	height:61px;
+	background-color:rgba(21,90,191,0.6);
+}
+#popo3{
+	width:536px;
+	height:64px;
+	border:0;
+	outline: none;
+	border-radius: 5px;
+	background-color:rgba(21,90,191,0.41);
+	font-size:20px;
+	text-indent:10px;
+	color:#fff;
+	margin-left:18px;
+	margin-top:30px;
+}
+input[type="text"]::-webkit-input-placeholder { /* WebKit browsers */ 
+	color: #c9c3c3;
+} 
+#pop-sure3,#pop-del3{
+	float: left;
+    border:0;
+    outline: none;
+    width:155px;
+    height:56px;
+    line-height: 56px;
+    text-align: center;	
+    background:#1f90e6;
+    font-size:24px;
+    color: #ebf7ff;
+    border-radius:5px;
+    margin-top:56px;
+}
+#pop-sure3{
+	margin-left:18px;
+}
+#pop-del3{
+	margin-left:225px;
+}
+	</style>
+</head>
+<body>
+	<div class="assess">
+	    	<div class="assess-left">
+	    		<p class="assess-lefttitle">响应能力总结</p>
+	    		<div class="assessBox">
+	    		<div class="assess-ablity">
+	    			<div class="assess-ablityleft">
+	    				<p class="assess-name">能力名称</p>
+	    				<select class="assess-ablitychose customBox">
+                            <option value ="原因清查">原因清查</option>
+                            <option value ="伤亡情况">伤亡情况</option>
+                            <option value="应急响应">应急响应</option>
+                            <option value="预警发布">预警发布</option>
+                            <option value ="舆情控制">舆情控制</option>
+                            <option value ="自定义" class="custom">自定义</option>
+                        </select>
+	    			</div>
+	    			<div class="assess-ablityright">
+	    				<p class="assess-name">图片素材</p>
+	    				<p class="assess-img">
+	    					<div id="result" class="assess-result"></div>
+	    					<input type="file" id="file_input" class="file_input"/>
+	    					<input type="button" value="上传图片" id="button" class="assess-imginfo"/>
+	    				</p>
+	    			</div>
+	    		</div>
+	    	    	<div class="assess-summery">
+	    	    		<label class="assess-summerytitle">总结评估</label>
+	    	    		<textarea placeholder="请输入该阶段的场景说明"></textarea>
+	    	    		<span class="assess-summerysave">保存为模版</span>	
+	    	        </div>
+	    	    </div>
+	    	    <div class="assess-summerynew">
+	    	    	<p class="assess-newbuild">新创建</p>
+	    	    </div>
+	    	</div>
+	    	<div class="assess-right">
+	    		<p class="assess-template">常用模版</p>
+	    		<div class="assess-templatecon">
+	    			<span>原因清查</span>
+	    			<span>接警与信息报送</span>
+	    			<span>原因清查</span>
+	    			<span>原因清查</span>
+	    			<span>接警与信息报送</span>
+	    			<span>原因清查</span>
+	    			<span>原因清查</span>
+	    		</div>
+	    	</div>
+	    	<div class="pop-box3" style="display:none">
+			    <div class="pop-up3">
+			            <span class="poptitle"></span>
+			    	    <input type="text" placeholder="请输入流程名称" id="popo3" />
+			    	    <input type="button" value="确认" id="pop-sure3" />
+			    	    <input type="button" value="取消" id="pop-del3"/>
+			    </div>
+		    </div>
+	    </div>
+	<script type="text/javascript" src="../js/jquery.min.js" ></script>
+	<script type="text/javascript" src="../js/newbuild.js" ></script>
+	<!-- <script type="text/javascript" src="../js/inputfile.js" ></script> -->
+</body>
+</html>
